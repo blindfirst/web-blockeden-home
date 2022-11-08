@@ -1,0 +1,84 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #C8102E;
+  --ifm-color-primary-dark: #b00e29;
+  --ifm-color-primary-darker: #990c23;
+  --ifm-color-primary-darkest: #810a1e;
+  --ifm-color-primary-light: #e01233;
+  --ifm-color-primary-lighter: #ed1e40;
+  --ifm-color-primary-lightest: #ef3654;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-color-base: #4c4c4c;
+}
+
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+p, h1, h2, h3, h4, h5, h6, div {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Ubuntu", sans-serif, Microsoft YaHei !important;
+}
+
+@media (max-width: 766px) {
+  article {
+    font-size: 16px;
+    line-height: 24px;
+    font-variation-settings: "wght" 500;
+    letter-spacing: -0.02em;
+    margin: 0px 0px 24px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1279px) {
+  article {
+    font-size: 20px;
+    line-height: 32px;
+    font-variation-settings: "wght" 500;
+    letter-spacing: -0.02em;
+    margin: 0px 0px 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  article {
+    font-size: 20px;
+    line-height: 32px;
+    font-variation-settings: "wght" 500;
+    letter-spacing: -0.02em;
+    margin: 0px 0px 32px;
+  }
+}
+
+.footer.footer--dark {
+  background-color: #031328!important;
+}
+
+.footer__title {
+  font-size: 18px;
+}
+
+.footer__item {
+  font-size: 16px;
+}
+
+section .nav-link:not(.active):not(.disabled):not(:hover), footer .nav-link:not(.active):not(.disabled):not(:hover) {
+  opacity: .5;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#docusaurus-base-url-issue-banner,.themedImage--dark_i4oU {
+  display: none;
+}
+

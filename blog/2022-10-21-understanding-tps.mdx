@@ -1,0 +1,22 @@
+---
+title: Let's talk about blockchain TPS
+authors: [jack]
+tags: [technology, tps]
+abstract: Explaining the difference between max and actual blockchain TPS.
+---
+
+On Day 1 of Aptos Mainnet launch, there’s some confusing conversations on [social media](https://twitter.com/ParadigmEng420/status/1582121416601673729) –
+
+<blockquote className="twitter-tweet"><p lang="en" dir="ltr">Let&#39;s look at transaction speeds on Aptos.<br/><br/>Aptos promises 100k TPS in its finalized version. However, the current TPS is somewhere around 4 transactions per second. <a href="https://t.co/joWnxAeIpZ">pic.twitter.com/joWnxAeIpZ</a></p>&mdash; Paradigm Engineer #420 (@ParadigmEng420) <a href="https://twitter.com/ParadigmEng420/status/1582121416601673729?ref_src=twsrc%5Etfw">October 17, 2022</a></blockquote>
+
+TPS is the acronym for transactions per second and how engineers measure the volume of the network traffic. There are multiple scenarios when we are talking about TPS:
+
+- **Max TPS** means the maximum network traffic a blockchain could support . This is determined by how fast a chain could reach consensus and mint a new block, and the block size (e.g., BTC) the gas limit (e.g., Ethereum) of a block. For ethereum and later blockchain that support smart contracts, it makes more sense to be limited by gas, because different transactions (e.g., 1-to-1 token transfer vs multi NFT token mint) has various computation complexity, and they need to be metered consistently. That said, max TPS is not a very strict measurement of a chain’s throughput. Instead, **max gas per second** is. Then, how do developers get the value of the max TPS? It’s usually a result of experiments - upper bound given the good network condition, fully available validators, and simplest transactions.
+
+- **Actual TPS** is the current traffic volume of a blockchain in operation. This is majorly determined by how busy the network is. Around the launch of Aptos Mainnet, there’s not many dApps ready, and not many users holding Aptos tokens, so that not many people were doing business on Atpos at that moment. That’s why the actual TPS was low at that moment. However, actual TPS will be bounded by max TPS. The so-called Ethereum congestion is the moment when actual TPS already reaches max TPS, no more transactions could be processed, and they have to wait.
+
+So Aptos’s high max TPS will demonstrate its advantage when the ecosystem is growing up, when we will still see almost instant transaction settlement and low transaction fee.
+
+Then, let’s get back to Block Eden customers. We offer [node API services](https://blockeden.xyz/pricing) at different tier, where the major difference is QPS (similarly, the acronym of queries per second) limit of using our service. Free tier basically gets 1 QPS, while Pro tier gets 10 QPS. That means how many REST API calls you could make per second. This is different from how many transactions could be settled on blockchain per second. When you call REST API, you may not only do the write operations (aka sending a transaction), but you could also do lots of read operations (e.g., getting account info, getting a block, getting a transaction).
+
+If you haven’t signed up for our services, please visit [this link](https://app.blockeden.xyz/sign-up/) to start from free.
