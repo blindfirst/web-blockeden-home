@@ -274,7 +274,7 @@ export default function Pricing() {
                       delay={200}
                       question={"What is a compute unit (CU)?"}
                       answer={
-                        "A compute unit is a measure of how many resources (CPU, RAM, disk, etc) an API method consumes on Block Eden. A simple REST requests only consumes 1 CU, while a more complex GraphQL request consumes 5 CUs."
+                        "A compute unit measures how many resources an API method consumes, e.g., CPU, RAM, disk, etc. For example, a simple REST request only consumes 1 CU, while a more complex GraphQL request consumes 5 CUs."
                       }
                     />
 

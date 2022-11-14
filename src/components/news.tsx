@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "@docusaurus/Link";
+import styles from './index.module.css';
+import clsx from "clsx";
 
 const {blogPosts} = require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
 
@@ -32,14 +34,14 @@ export const News = () => {
                 <div className="card-body d-flex flex-column">
                   <div className="d-flex justify-content-between mb-3">
                     <div className="text-small d-flex">
-                      <div className="mr-2">
+                      <div className={clsx("mr-2", styles.label)}>
                         <Link href={bp.metadata.tags[0].permalink}>{bp.metadata.tags[0].label}</Link>
                       </div>
                       <span className="text-muted">{bp.metadata.formattedDate}</span>
                     </div>
                   </div>
                   <Link href={bp.metadata.permalink}>
-                    <h4>{bp.metadata.title}</h4>
+                    <h4 className={styles.cardTitle}>{bp.metadata.title}</h4>
                   </Link>
                   <p className="flex-grow-1">
                     {bp.metadata.description}
