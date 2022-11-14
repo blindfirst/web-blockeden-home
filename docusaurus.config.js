@@ -46,6 +46,9 @@ const config = {
             require.resolve("./static/assets/css/theme-saas-trend.css"),
           ],
         },
+        gtag: {
+          trackingID: 'G-V2HNMTR1D0'
+        },
       }),
     ],
   ],
