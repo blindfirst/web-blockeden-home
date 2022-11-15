@@ -29,7 +29,7 @@ export const FaqItem: React.FC<Props> = ({delay, question, answer}: Props) => {
         <span className="h6 mb-0">{question}</span>
         <img
           className="icon"
-          src="assets/img/icons/interface/plus.svg"
+          src="/assets/img/icons/interface/plus.svg"
           alt="plus interface icon"
         />
       </div>

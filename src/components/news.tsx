@@ -26,7 +26,7 @@ export const News = () => {
               <div className="card">
                 <Link href={bp.metadata.permalink}>
                   <img
-                    src={`assets/img/article-${i + 1}.jpg`}
+                    src={`/assets/img/article-${i + 1}.jpg`}
                     alt="Image"
                     className="card-img-top"
                   />

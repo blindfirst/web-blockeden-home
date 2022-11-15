@@ -20,7 +20,7 @@ export const Features = () => {
             data-aos="fade-up"
             data-aos-delay={100}
           >
-            <img src="assets/img/saas-sketch-2.svg" alt="Image" className="mb-4" />
+            <img src="/assets/img/saas-sketch-2.svg" alt="Image" className="mb-4" />
             <h4>Easy to build and scale</h4>
             <p className="px-xl-4">
               Connect your dApp to Aptos blockchain instantly and scale with your users.
@@ -34,7 +34,7 @@ export const Features = () => {
             data-aos="fade-up"
             data-aos-delay={200}
           >
-            <img src="assets/img/saas-sketch-3.svg" alt="Image" className="mb-4" />
+            <img src="/assets/img/saas-sketch-3.svg" alt="Image" className="mb-4" />
             <h4>Developers first</h4>
             <p className="px-xl-4">
               Scalable REST and GraphQL APIs ready for you in a few clicks away. Here is how it works -
@@ -48,7 +48,7 @@ export const Features = () => {
             data-aos="fade-up"
             data-aos-delay={300}
           >
-            <img src="assets/img/saas-sketch-4.svg" alt="Image" className="mb-4" />
+            <img src="/assets/img/saas-sketch-4.svg" alt="Image" className="mb-4" />
             <h4>Hands-on support</h4>
             <p className="px-xl-4">
               Sales engineer at your service now. Singapore Time (SGT) Mon - Fri 7am - 3pm.
@@ -62,7 +62,7 @@ export const Features = () => {
             data-aos="fade-up"
             data-aos-delay={400}
           >
-            <img src="assets/img/saas-sketch-5.svg" alt="Image" className="mb-4" />
+            <img src="/assets/img/saas-sketch-5.svg" alt="Image" className="mb-4" />
             <h4>Product Roadmap</h4>
             <p className="px-xl-4">
               Quality product delivered to you by a group of engineers from Google, Meta and Uber.

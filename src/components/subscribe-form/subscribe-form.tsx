@@ -65,7 +65,7 @@ export const SubscribeForm: React.FC = () => {
             >
               <img
                 className="icon"
-                src="assets/img/icons/theme/code/loading.svg"
+                src="/assets/img/icons/theme/code/loading.svg"
                 alt="loading icon"
                 data-inject-svg=""
               />

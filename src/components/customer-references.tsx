@@ -20,7 +20,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -37,7 +37,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -54,7 +54,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -71,7 +71,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -88,7 +88,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -104,7 +104,7 @@ export const CustomerReferences: React.FC = () => {
               </div>
               <div className="avatar-author align-items-center">
                 <img
-                  src="assets/img/avatars/male-2.jpg"
+                  src="/assets/img/avatars/male-2.jpg"
                   alt="Avatar"
                   className="avatar1"
                 />
@@ -130,7 +130,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -147,7 +147,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -164,7 +164,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -181,7 +181,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -198,7 +198,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -216,7 +216,7 @@ export const CustomerReferences: React.FC = () => {
               </div>
               <div className="avatar-author align-items-center">
                 <img
-                  src="assets/img/avatars/male-4.jpg"
+                  src="/assets/img/avatars/male-4.jpg"
                   alt="Avatar"
                   className="avatar1"
                 />
@@ -242,7 +242,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -259,7 +259,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -276,7 +276,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -293,7 +293,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -310,7 +310,7 @@ export const CustomerReferences: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
-                  data-src="assets/img/icons/interface/star.svg"
+                  data-src="/assets/img/icons/interface/star.svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -326,7 +326,7 @@ export const CustomerReferences: React.FC = () => {
               </div>
               <div className="avatar-author align-items-center">
                 <img
-                  src="assets/img/avatars/female-2.jpg"
+                  src="/assets/img/avatars/female-2.jpg"
                   alt="Avatar"
                   className="avatar1"
                 />
@@ -350,7 +350,7 @@ export const CustomerReferences: React.FC = () => {
           version="1.1"
           preserveAspectRatio="none"
           className="injected-svg bg-primary-alt"
-          data-src="assets/img/dividers/divider-1.svg"
+          data-src="/assets/img/dividers/divider-1.svg"
         >
           <path d="M0,0 C40,33 66,52 75,52 C83,52 92,33 100,0 L100,100 L0,100 L0,0 Z" />
         </svg>

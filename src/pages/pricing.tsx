@@ -51,7 +51,7 @@ export default function Pricing() {
               >
                 <img
                   className="bg-primary"
-                  src="assets/img/decorations/deco-dots-4.svg"
+                  src="/assets/img/decorations/deco-dots-4.svg"
                   alt="deco-dots-4 decoration"
 
                 />
@@ -62,7 +62,7 @@ export default function Pricing() {
               >
                 <img
                   className="bg-primary-2"
-                  src="assets/img/decorations/deco-blob-6.svg"
+                  src="/assets/img/decorations/deco-blob-6.svg"
                   alt="deco-blob-6 decoration"
 
                 />
@@ -70,7 +70,7 @@ export default function Pricing() {
             </div>
             <div className="divider">
               <img
-                src="assets/img/dividers/divider-1.svg"
+                src="/assets/img/dividers/divider-1.svg"
                 alt="graphical divider"
 
               />

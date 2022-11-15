@@ -44,7 +44,7 @@ export const GetStarted = () => {
             viewBox="0 0 135 206"
             fill="none"
             className="injected-svg bg-primary-2"
-            data-src="assets/img/decorations/deco-blob-5.svg"
+            data-src="/assets/img/decorations/deco-blob-5.svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
           >
             <path
