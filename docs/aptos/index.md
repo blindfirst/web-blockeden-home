@@ -16,13 +16,13 @@ Block Eden provides [Aptos](https://aptoslabs.com/) node API.
 
 ## Sign Up
 
-If you don't have an account yet, please [create a Block Eden account](https://app.blockeden.xyz/sign-up/) first.
+If you don't have an account yet, please [create a Block Eden account](https://blockeden.xyz/dash/sign-up/) first.
 
 ## Create a Block Eden access key
 
 You'll need access keys to call our APIs. Here is how to get them.
 
-1. Go to https://app.blockeden.xyz/
+1. Go to https://blockeden.xyz/dash/
 2. Enter the name of the access key you want to create.
 3. Select a network. We support the following networks...
    1. **Aptos Mainnet** for the primary public Aptos production blockchain, where actual-value transactions occur on the distributed ledger.

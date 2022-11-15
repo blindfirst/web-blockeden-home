@@ -15,7 +15,7 @@ Now, with Block Eden's Aptos GraphQL API, developers are now free from worrying 
 
 Here's how to get started...
 
-**Step 1**. Go to https://app.blockeden.xyz/. Please sign up if you haven't done so.
+**Step 1**. Go to https://blockeden.xyz/dash/. Please sign up if you haven't done so.
 
 **Step 2**. Input your name for the API key, select *Aptos Mainnet Indexer GraphQL*, and then click *+ Create key*.
 

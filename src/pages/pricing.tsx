@@ -137,7 +137,7 @@ export default function Pricing() {
                         </span>
                       </li>
                     </ul>
-                    <a href="https://app.blockeden.xyz/create-payment-subscription" className="btn btn-primary">
+                    <a href="https://blockeden.xyz/dash/create-payment-subscription" className="btn btn-primary">
                       Get started
                     </a>
                   </div>

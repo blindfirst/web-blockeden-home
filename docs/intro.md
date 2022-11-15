@@ -19,4 +19,4 @@ DApp developers to quickly innovate, experiment, and iterate enterprise-grade pr
 
 ## Getting Started
 
-[Sign up for free today!](https://app.blockeden.xyz/sign-up/)
+[Sign up for free today!](https://blockeden.xyz/dash/sign-up/)
