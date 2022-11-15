@@ -105,7 +105,7 @@ export default function Pricing() {
                         </span>
                       </li>
                     </ul>
-                    <a href="https://app.blockeden.xyz" className="btn btn-outline-primary">
+                    <a href="https://blockeden.xyz/dash/" className="btn btn-outline-primary">
                       Get started
                     </a>
                   </div>
