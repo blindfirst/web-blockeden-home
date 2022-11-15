@@ -75,6 +75,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/pricing', label: 'Pricing', position: 'left'},
+          {to: beConfig.analytics, label: 'Analytics', position: 'left'},
           {to: beConfig.signIn, label: 'Login', position: 'right'},
           {to: beConfig.signUp, label: 'Sign Up', position: 'right'},
         ],
