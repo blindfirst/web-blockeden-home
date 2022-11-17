@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Aptos API Service
+# Get started with your API key
 
 Block Eden provides [Aptos](https://aptoslabs.com/) node API.
 

@@ -31,10 +31,17 @@ const config = {
 
   presets: [
     [
-      'classic',
+      'docusaurus-preset-openapi',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        "api": {
+          // id: 'cars', // omitted => default instance
+          path: './src/swagger/aptos-openapi.json',
+          routeBasePath: 'aptos-api-reference',
+          // ... other options
+        },
         docs: {
+          sidebarCollapsed: false,
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
@@ -58,7 +65,7 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({
       navbar: {
         title: 'Block Eden',
@@ -101,6 +108,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/blockedenhq',
+              },
+              {
+                label: 'Aptos API Reference',
+                to: '/about-us',
               },
             ],
           },
