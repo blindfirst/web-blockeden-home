@@ -111,7 +111,7 @@ const config = {
               },
               {
                 label: 'Aptos API Reference',
-                to: '/about-us',
+                to: '/aptos-api-reference/get-ledger-info',
               },
             ],
           },
