@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Get started with your API key
 
-Block Eden provides [Sui](https://sui.io/) node API.
+Block Eden provides [Sui](https://sui.io/) JSON-RPC API.
 
 * **Standard Interface**: supporting Sui JSON-RPC API with HTTPS.
 * **Reliability**: running on the latest network upgrades with a minimum 99.9%
