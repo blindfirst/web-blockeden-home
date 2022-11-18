@@ -31,6 +31,13 @@ const sidebars = {
           , label: "Aptos API Reference"
         }],
     },
+    {
+      type: 'category',
+      label: 'Sui API',
+      items: [
+        'sui/index',
+      ],
+    },
   ],
 };
 
