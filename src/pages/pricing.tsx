@@ -17,8 +17,7 @@ export default function Pricing() {
   return (
     <Layout
       title={"Pricing"}
-      description={"Pricing plans for every team. Instant and reliable access to Aptos APIs, provided by Block Eden."}>
-      <SeoHead/>
+      description={"Pricing plans for every team. Instant and reliable access to Aptos APIs, provided by BlockEden.xyz."}>
 
 
       <main>
@@ -43,7 +42,7 @@ export default function Pricing() {
                 <div className="col-xl-8 col-lg-10">
                   <h1 className="display-4">Pricing plans for every team</h1>
                   <p className="lead mb-0">
-                    Instant and reliable access to Aptos REST and GraphQL APIs, provided by Block Eden.
+                    Instant and reliable access to Aptos REST and GraphQL APIs, provided by BlockEden.xyz.
                   </p>
                 </div>
               </div>
@@ -240,7 +239,7 @@ export default function Pricing() {
                       delay={100}
                       question={"How do I start?"}
                       answer={
-                        <div>You're only 5-minutes away from using the platform! Block Eden is open and self-serve, so all you need to do is choose your tier, sign-up, then start using the developer platform! To make getting started as easy as possible, we have a free tier and a simple, step-by-step <Link href={"/docs/aptos/"}>Getting Started Guide</Link> on our docs.</div>
+                        <div>You're only 5-minutes away from using the platform! BlockEden.xyz is open and self-serve, so all you need to do is choose your tier, sign-up, then start using the developer platform! To make getting started as easy as possible, we have a free tier and a simple, step-by-step <Link href={"/docs/aptos/"}>Getting Started Guide</Link> on our docs.</div>
                       }
                     />
 

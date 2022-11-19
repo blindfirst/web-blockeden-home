@@ -4,5 +4,5 @@ module.exports = {
     signIn: "https://blockeden.xyz/dash/login/",
     supportUrl: "https://discord.gg/GqzTYQ4YNa",
     analytics: "https://blockeden.xyz/analytics/",
-  }
+  },
 }

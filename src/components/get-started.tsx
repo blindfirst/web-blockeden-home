@@ -7,9 +7,9 @@ export const GetStarted = () => {
       <div className="container layer-1">
         <div className="row justify-content-center text-center mb-6">
           <div className="col-xl-8 col-lg-9">
-            <h2 className="display-4 mx-xl-6">Build blockchain magic with Block Eden</h2>
+            <h2 className="display-4 mx-xl-6">Build blockchain magic with BlockEden.xyz</h2>
             <p className="lead">
-              Block Eden combines the most powerful web3 developer products and tools with resources, community and support.
+              BlockEden.xyz combines the most powerful web3 developer products and tools with resources, community and support.
             </p>
           </div>
         </div>

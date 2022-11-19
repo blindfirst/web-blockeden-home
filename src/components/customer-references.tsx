@@ -100,7 +100,7 @@ export const CustomerReferences: React.FC = () => {
                 </svg>
               </div>
               <div className="my-md-2 flex-grow-1">
-                <h4>“(Block Eden is) commercial Aptos GraphQL API that can not be found anywhere else!”</h4>
+                <h4>“(BlockEden.xyz is) commercial Aptos GraphQL API that can not be found anywhere else!”</h4>
               </div>
               <div className="avatar-author align-items-center">
                 <img
@@ -322,7 +322,7 @@ export const CustomerReferences: React.FC = () => {
                 </svg>
               </div>
               <div className="my-md-2 flex-grow-1">
-                <h4>“We choose Block Eden for the team's responsiveness and commitment. They genuinely want to grow with us.”</h4>
+                <h4>“We choose BlockEden.xyz for the team's responsiveness and commitment. They genuinely want to grow with us.”</h4>
               </div>
               <div className="avatar-author align-items-center">
                 <img

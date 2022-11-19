@@ -10,7 +10,7 @@ export const Features = () => {
           <div className="col-xl-8 col-lg-9">
             <h2 className="display-4 mx-xl-6">API with high availability</h2>
             <p className="lead">
-              Block Eden scales with dedicated distributed systems, and maintains data correctness in real-time.
+              BlockEden.xyz scales with dedicated distributed systems, and maintains data correctness in real-time.
             </p>
           </div>
         </div>
@@ -23,7 +23,7 @@ export const Features = () => {
             <img src="/assets/img/saas-sketch-2.svg" alt="Image" className="mb-4" />
             <h4>Easy to build and scale</h4>
             <p className="px-xl-4">
-              Connect your dApp to Aptos blockchain instantly and scale with your users.
+              Connect your dApp to Aptos & Sui blockchains instantly and scale with your users.
             </p>
             <a href={beConfig.signUp} className="hover-arrow">
               Sign up now
@@ -51,7 +51,7 @@ export const Features = () => {
             <img src="/assets/img/saas-sketch-4.svg" alt="Image" className="mb-4" />
             <h4>Hands-on support</h4>
             <p className="px-xl-4">
-              Sales engineer at your service now. Singapore Time (SGT) Mon - Fri 7am - 3pm.
+              Partner engineers at your service now. Singapore Time (SGT) Mon - Fri 7am - 3pm.
             </p>
             <a href={beConfig.supportUrl} className="hover-arrow">
               Contact support
@@ -65,7 +65,7 @@ export const Features = () => {
             <img src="/assets/img/saas-sketch-5.svg" alt="Image" className="mb-4" />
             <h4>Product Roadmap</h4>
             <p className="px-xl-4">
-              Quality product delivered to you by a group of engineers from Google, Meta and Uber.
+              Quality product delivered to you by a group of engineers from Google, Meta, Uber, and IoTeX.
             </p>
             <Link className="hover-arrow" href="./about-us">
               About us

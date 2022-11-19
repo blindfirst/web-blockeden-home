@@ -5,16 +5,38 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const {beConfig} = require("./src/config");
 // const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const tagline = 'Most reliable web3 infra for Aptos & Sui developers';
+const description = "BlockEden.xyz is a suite of APIs powering DApps for Aptos and Sui blockchains of all sizes. Build DApp and scale faster.";
+const previewImageUrl = "https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png";
+const title = `BlockEden.xyz | ${tagline}`;
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Block Eden',
+  title: 'BlockEden.xyz',
   titleDelimiter: "-",
-  tagline: 'Aptos REST and GraphQL API and Node Service',
+  tagline: tagline,
   url: 'https://blockeden.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
+
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "shortcut icon",
+        href: "https://blockeden.xyz/img/favicon.svg"
+      }
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "apple-touch-icon",
+        href: "https://blockeden.xyz/img/favicon.svg"
+      }
+    },
+  ],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -65,12 +87,24 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
+  /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({
+      metadata: [
+        // og
+        {property: "og:description", content: description},
+        {property: "og:image", name: "og:image", content: previewImageUrl},
+
+        // twitter
+        {name: "twitter:site", content: "@BlockEdenHQ"},
+        {name: "twitter:image", content: previewImageUrl},
+        {name: "twitter:title", content: title},
+        {name: "twitter:description", content: description},
+      ],
+
       navbar: {
-        title: 'Block Eden',
+        title: 'BlockEden.xyz',
         logo: {
-          alt: 'Block Eden',
+          alt: 'BlockEden.xyz',
           src: 'img/favicon.svg',
         },
         items: [

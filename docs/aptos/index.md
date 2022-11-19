@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Get started
 
-Block Eden provides [Aptos](https://aptoslabs.com/) node API.
+BlockEden.xyz provides [Aptos](https://aptoslabs.com/) node API.
 
 * **Standard Interface**: supporting Aptos Node API via Restful API with HTTPS.
 * **Reliability**: running on the latest network upgrades with a minimum 99.9%
@@ -38,7 +38,7 @@ console.log(block);
 ```
 
 
-## Make a request with Block Eden
+## Make a request with BlockEden.xyz
 
 The access URL is your unique endpoint to use Aptos node API. Copy it and
 compose the first request: e.g., `https://aptos-testnet.blockeden.xyz/<access_key>/v1`

@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Get started
 
-Block Eden provides [Sui](https://sui.io/) JSON-RPC API.
+BlockEden.xyz provides [Sui](https://sui.io/) JSON-RPC API.
 
 * **Standard Interface**: supporting Sui JSON-RPC API with HTTPS.
 * **Reliability**: running on the latest network upgrades with a minimum 99.9%
@@ -16,9 +16,9 @@ Block Eden provides [Sui](https://sui.io/) JSON-RPC API.
 
 ## Sign Up
 
-If you don't have an account yet, please [create a Block Eden account](https://blockeden.xyz/dash/sign-up/) first.
+If you don't have an account yet, please [create a BlockEden.xyz account](https://blockeden.xyz/dash/sign-up/) first.
 
-## Create a Block Eden access key
+## Create a BlockEden.xyz access key
 
 You'll need access keys to call our APIs. Here is how to get them.
 
@@ -30,7 +30,7 @@ You'll need access keys to call our APIs. Here is how to get them.
 
 ![image info](./img/create_sui_access_key.png)
 
-## Make a request with Block Eden
+## Make a request with BlockEden.xyz
 
 The access URL is your unique endpoint to use Sui node API. Copy it and
 compose the first request:

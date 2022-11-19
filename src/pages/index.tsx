@@ -62,9 +62,10 @@ function HomepageHeader() {
       <div className={clsx("container", styles.heroContainer)}>
         <div className="row align-items-center min-vh-50">
           <div className="col-lg-6 text-center text-lg-left mb-lg-0 m-4">
-            <h1 className="hero__title">Powering the next wave of decentralized applications</h1>
+            <h1 className="hero__title">Most reliable web3 infra for Aptos & Sui developers</h1>
             <div className="my-4">
-              <p className="lead">{siteConfig.tagline}. Learn more about <a href="https://aptos.dev/">Aptos</a> and building smart contracts in the <a href={"https://aptos.dev/guides/move-guides/move-on-aptos/"}>Aptos Move language</a>.
+              <p>
+                Powering the next wave of decentralized applications
               </p>
             </div>
 
@@ -85,9 +86,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={"Block Eden Aptos REST and GraphQL API Node Service"}
+      title={"BlockEden.xyz: most reliable web3 infra for Aptos & Sui developers"}
       description={siteConfig.tagline}>
-      <SeoHead/>
 
       <HomepageHeader/>
       <main>

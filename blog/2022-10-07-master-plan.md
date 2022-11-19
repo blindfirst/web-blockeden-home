@@ -2,10 +2,10 @@
 title: Master Plan
 authors: [jack]
 tags: [business]
-abstract: Master Plan of Block Eden
+abstract: Master Plan of BlockEden.xyz
 ---
 
-Block Eden aims to build an all-inclusive platform for web3 developers in the
+BlockEden.xyz aims to build an all-inclusive platform for web3 developers in the
 next 5 years. The strategy is to start with a genesis product that could solve
 some client business needs immediately. We identify Aptos chain API service as
 such a genesis product. If we’re doing well, we are able to grow our product
