@@ -5,16 +5,11 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const {beConfig} = require("./src/config");
 // const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const tagline = 'Most reliable web3 infra for Aptos & Sui developers';
-const description = "BlockEden.xyz is a suite of APIs powering DApps for Aptos and Sui blockchains of all sizes. Build DApp and scale faster.";
-const previewImageUrl = "https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png";
-const title = `BlockEden.xyz | ${tagline}`;
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'BlockEden.xyz',
   titleDelimiter: "-",
-  tagline: tagline,
+  tagline: beConfig.tagline,
   url: 'https://blockeden.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -91,14 +86,14 @@ const config = {
     ({
       metadata: [
         // og
-        {property: "og:description", content: description},
-        {property: "og:image", name: "og:image", content: previewImageUrl},
+        {property: "og:description", content: beConfig.description},
+        {property: "og:image", name: "og:image", content: beConfig.previewImageUrl},
 
         // twitter
         {name: "twitter:site", content: "@BlockEdenHQ"},
-        {name: "twitter:image", content: previewImageUrl},
-        {name: "twitter:title", content: title},
-        {name: "twitter:description", content: description},
+        {name: "twitter:image", content: beConfig.previewImageUrl},
+        {name: "twitter:title", content: beConfig.title},
+        {name: "twitter:description", content: beConfig.description},
       ],
 
       navbar: {

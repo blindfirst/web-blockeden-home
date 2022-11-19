@@ -9,7 +9,6 @@ import {News} from "@site/src/components/news";
 import {Features} from "@site/src/components/features";
 import { beConfig } from '../config';
 import {useAos} from "@site/src/components/use-aos";
-import {SeoHead} from "@site/src/components/seo-head";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -62,10 +61,10 @@ function HomepageHeader() {
       <div className={clsx("container", styles.heroContainer)}>
         <div className="row align-items-center min-vh-50">
           <div className="col-lg-6 text-center text-lg-left mb-lg-0 m-4">
-            <h1 className="hero__title">Most reliable web3 infra for Aptos & Sui developers</h1>
+            <h1 className="hero__title">{siteConfig.tagline}</h1>
             <div className="my-4">
               <p>
-                Powering the next wave of decentralized applications
+                {beConfig.description}
               </p>
             </div>
 
