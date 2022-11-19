@@ -75,6 +75,17 @@ const config = {
     "https://fonts.googleapis.com/css?family=Inter",
   ],
 
+  plugins: [
+    [
+      "docusaurus-plugin-openapi",
+      {
+        id: "sui-api-reference",
+        path: "./src/swagger/aptos-openapi.json",
+        routeBasePath: "sui-api-reference",
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({
