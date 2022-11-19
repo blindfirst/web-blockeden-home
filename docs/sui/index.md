@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Get started with your API key
+# Get started
 
 Block Eden provides [Sui](https://sui.io/) JSON-RPC API.
 
@@ -37,8 +37,8 @@ compose the first request:
 ```
 # sui json-rpc discover request
 
-curl -X POST https://sui-devnet.blockeden.xyz/<access_key> 
--H 'Content-Type: application/json' 
+curl -X POST https://sui-devnet.blockeden.xyz/<access_key>
+-H 'Content-Type: application/json'
 -d '{ "jsonrpc":"2.0", "method":"rpc.discover","id":1}'
 ```
 

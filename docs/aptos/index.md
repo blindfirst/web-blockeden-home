@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Get started with your API key
+# Get started
 
 Block Eden provides [Aptos](https://aptoslabs.com/) node API.
 
@@ -14,23 +14,29 @@ Block Eden provides [Aptos](https://aptoslabs.com/) node API.
 * **Full Delegation**: freeing you from dealing with DevOps work for Aptos node.
 
 
-## Sign Up
 
-If you don't have an account yet, please [create a Block Eden account](https://blockeden.xyz/dash/sign-up/) first.
+## How to connect to Aptos mainnet?
 
-## Create a Block Eden access key
+**Step 1**. Go to https://blockeden.xyz/dash/. Please sign up if you haven't done so.
 
-You'll need access keys to call our APIs. Here is how to get them.
+**Step 2**. Input your name for the API key, select Aptos Mainnet GraphQL, and then click + Create key.
 
-1. Go to https://blockeden.xyz/dash/
-2. Enter the name of the access key you want to create.
-3. Select a network. We support the following networks...
-   1. **Aptos Mainnet** for the primary public Aptos production blockchain, where actual-value transactions occur on the distributed ledger.
-   1. **Aptos Testnet** for testing and rewarding contributors and nodes, where transactions have no real value.
-   2. **Aptos Devnet** for experimenting with new ideas, where transactions have no real value.
+![create Aptos mainnet api key](./img/create-apotos-mainnet-api-key.png)
 
+**Step 3**. Grab your access URL by clicking it and copying it to the clipboard.
 
-![image info](./img/create_access_key.png)
+![Aptos mainnet api key](./img/aptos-mainnet-access-key.png)
+
+**Step 4**. Use the access URL in your project like the following. Remember to replace `<access_key>` with your own key.
+
+```typescript
+import {AptosClient} from "aptos";
+
+const client = new AptosClient("https://aptos-mainnet.blockeden.xyz/<access_key>");
+const block = await client.getBlockByHeight(1);
+console.log(block);
+```
+
 
 ## Make a request with Block Eden
 
@@ -51,12 +57,9 @@ compose the first request: e.g., `https://aptos-testnet.blockeden.xyz/<access_ke
 }
 ```
 
-If you see a response like the above, you're all set.
-
 ## API Reference
 
-Please refer to the official
-[API docs](https://fullnode.devnet.aptoslabs.com/v1/spec#/).
+We host interactive [API docs here](/aptos-api-reference/get-ledger-info).
 
 ## Starting to Build!
 
