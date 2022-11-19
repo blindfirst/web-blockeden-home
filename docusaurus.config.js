@@ -29,17 +29,6 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [
-    [
-      "docusaurus-plugin-openapi",
-      {
-        id: "sui-api-reference",
-        path: "./src/swagger/sui-openapi.json",
-        routeBasePath: "sui-api-reference",
-      },
-    ],
-  ],
-
   presets: [
     [
       'docusaurus-preset-openapi',
@@ -80,7 +69,7 @@ const config = {
       "docusaurus-plugin-openapi",
       {
         id: "sui-api-reference",
-        path: "./src/swagger/aptos-openapi.json",
+        path: "./src/swagger/sui-openapi.json",
         routeBasePath: "sui-api-reference",
       },
     ],
