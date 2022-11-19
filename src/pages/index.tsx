@@ -69,7 +69,7 @@ function HomepageHeader() {
             </div>
 
             <a
-              className="btn btn-lg btn-primary"
+              className={clsx("btn btn-lg btn-primary", styles.noShadow)}
               href={beConfig.signUp}
             >
               Get started for free

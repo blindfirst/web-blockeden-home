@@ -63,3 +63,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.noShadow {
+  text-shadow: none;
+}
