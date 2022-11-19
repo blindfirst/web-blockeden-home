@@ -8,9 +8,11 @@ import Link from "@docusaurus/Link";
 import { beConfig } from "../config";
 import {CustomerReferences} from "@site/src/components/customer-references";
 import {FaqItem} from "@site/src/components/faq-item";
+import {useAos} from "@site/src/components/use-aos";
 
 export default function Pricing() {
   const {siteConfig} = useDocusaurusContext();
+  useAos();
   return (
     <Layout
       title={"Pricing"}
@@ -79,7 +81,7 @@ export default function Pricing() {
           <section>
             <div className="container">
               <div className="row mb-4">
-                <div className="col-md-4" data-aos="dummy-fade-up" data-aos-delay={100}>
+                <div className="col-md-4" data-aos="fade-up" data-aos-delay={100}>
                   <div className="card card-body align-items-center ">
                     <div className="pt-md-2">
                       <h4>Free</h4>
@@ -110,7 +112,7 @@ export default function Pricing() {
                     </a>
                   </div>
                 </div>
-                <div className="col-md-4" data-aos="dummy-fade-up" data-aos-delay={200}>
+                <div className="col-md-4" data-aos="fade-up" data-aos-delay={200}>
                   <div className="card card-body align-items-center shadow-3d">
                     <span className="badge badge-top badge-dark">Most Popular</span>
                     <div className="pt-md-2">
@@ -142,7 +144,7 @@ export default function Pricing() {
                     </a>
                   </div>
                 </div>
-                <div className="col-md-4" data-aos="dummy-fade-up" data-aos-delay={300}>
+                <div className="col-md-4" data-aos="fade-up" data-aos-delay={300}>
                   <div className="card card-body align-items-center ">
                     <div className="pt-md-2">
                       <h4>Enterprise</h4>

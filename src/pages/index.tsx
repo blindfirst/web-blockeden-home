@@ -9,11 +9,13 @@ import {Helmet} from 'react-helmet-async';
 import {News} from "@site/src/components/news";
 import {Features} from "@site/src/components/features";
 import { beConfig } from '../config';
+import {useAos} from "@site/src/components/use-aos";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   const videoRef = useRef<HTMLVideoElement>();
   const sourceRef = useRef<HTMLSourceElement>();
+  useAos();
 
   useEffect(() => {
     const videoSrc =

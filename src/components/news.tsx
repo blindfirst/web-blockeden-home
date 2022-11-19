@@ -19,9 +19,9 @@ export const News = () => {
           {recent.map((bp, i) => (
             <div
               key={bp.id}
-              className="col-md-6 col-lg-4 d-flex aos-init aos-animate"
+              className="col-md-6 col-lg-4 d-flex"
               data-aos="fade-up"
-              data-aos-delay={200}
+              data-aos-delay={(i+1) * 100}
             >
               <div className="card">
                 <Link href={bp.metadata.permalink}>

@@ -12,7 +12,7 @@ export const FaqItem: React.FC<Props> = ({delay, question, answer}: Props) => {
   return (
     <div
       className="card mb-2 card-sm card-body hover-shadow-sm"
-      data-aos="dummy-fade-up"
+      data-aos="fade-up"
       data-aos-delay={delay}
     >
       <div
@@ -35,9 +35,9 @@ export const FaqItem: React.FC<Props> = ({delay, question, answer}: Props) => {
       </div>
       <div className={classnames({show: displayAnswer}, "collapse")} id="panel-1">
         <div className="pt-3">
-          <p className="mb-0">
+          <div className="mb-0">
             {answer}
-          </p>
+          </div>
         </div>
       </div>
     </div>

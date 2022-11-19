@@ -16,7 +16,7 @@ export const Features = () => {
         </div>
         <div className="row text-center">
           <div
-            className="col-md-6 col-lg-3 mb-4 mb-lg-0 aos-init aos-animate"
+            className="col-md-6 col-lg-3 mb-4 mb-lg-0"
             data-aos="fade-up"
             data-aos-delay={100}
           >
@@ -30,7 +30,7 @@ export const Features = () => {
             </a>
           </div>
           <div
-            className="col-md-6 col-lg-3 mb-4 mb-lg-0 aos-init aos-animate"
+            className="col-md-6 col-lg-3 mb-4 mb-lg-0"
             data-aos="fade-up"
             data-aos-delay={200}
           >
@@ -44,7 +44,7 @@ export const Features = () => {
             </Link>
           </div>
           <div
-            className="col-md-6 col-lg-3 mb-4 mb-lg-0 aos-init aos-animate"
+            className="col-md-6 col-lg-3 mb-4 mb-lg-0"
             data-aos="fade-up"
             data-aos-delay={300}
           >
@@ -58,7 +58,7 @@ export const Features = () => {
             </a>
           </div>
           <div
-            className="col-md-6 col-lg-3 mb-4 mb-lg-0 aos-init aos-animate"
+            className="col-md-6 col-lg-3 mb-4 mb-lg-0"
             data-aos="fade-up"
             data-aos-delay={400}
           >
