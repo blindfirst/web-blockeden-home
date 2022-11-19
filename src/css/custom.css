@@ -43,7 +43,7 @@ td {
 }
 
 @media (min-width: 767px) and (max-width: 1279px) {
-  .breadcrumbHomeIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocBreadcrumbs-styles-module {
+  .breadcrumbs__link>svg {
     height: 1.8rem!important;
     width: 1.8rem!important;;
   }
@@ -58,7 +58,7 @@ td {
 }
 
 @media (min-width: 1280px) {
-  .breadcrumbHomeIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocBreadcrumbs-styles-module {
+  .breadcrumbs__link>svg {
     height: 1.8rem!important;
     width: 1.8rem!important;;
   }
@@ -92,7 +92,7 @@ a:hover {
   text-decoration: none;
 }
 
-#docusaurus-base-url-issue-banner {
+#docusaurus-base-url-issue-banner,.themedImage--dark_i4oU {
   display: none;
 }
 
