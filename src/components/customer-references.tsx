@@ -7,7 +7,7 @@ export const CustomerReferences: React.FC = () => {
       <div className="container mb-lg-n7 position-relative">
         <div className="row">
           <div
-            className="col-md-4 d-flex aos-init aos-animate"
+            className="col-md-4 d-flex"
             data-aos="fade-up"
             data-aos-delay={100}
           >
@@ -117,7 +117,7 @@ export const CustomerReferences: React.FC = () => {
             </div>
           </div>
           <div
-            className="col-md-4 d-flex aos-init aos-animate"
+            className="col-md-4 d-flex"
             data-aos="fade-up"
             data-aos-delay={200}
           >
@@ -229,7 +229,7 @@ export const CustomerReferences: React.FC = () => {
             </div>
           </div>
           <div
-            className="col-md-4 d-flex aos-init aos-animate"
+            className="col-md-4 d-flex"
             data-aos="fade-up"
             data-aos-delay={300}
           >
