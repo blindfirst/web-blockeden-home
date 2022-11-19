@@ -46,37 +46,7 @@ export default function Pricing() {
                 </div>
               </div>
             </div>
-            <div className="decoration-wrapper d-none d-md-block">
-              <div
-                className="decoration left middle-y scale-2"
-                data-jarallax-element={100}
-              >
-                <img
-                  className="bg-primary"
-                  src="/assets/img/decorations/deco-dots-4.svg"
-                  alt="deco-dots-4 decoration"
-
-                />
-              </div>
-              <div
-                className="decoration bottom right scale-2"
-                data-jarallax-element="100 100"
-              >
-                <img
-                  className="bg-primary-2"
-                  src="/assets/img/decorations/deco-blob-6.svg"
-                  alt="deco-blob-6 decoration"
-
-                />
-              </div>
-            </div>
-            <div className="divider">
-              <img
-                src="/assets/img/dividers/divider-1.svg"
-                alt="graphical divider"
-
-              />
-            </div>
+            <div style={{height: "60px"}}/>
           </section>
           <section>
             <div className="container">
