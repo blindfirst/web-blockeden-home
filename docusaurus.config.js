@@ -70,7 +70,7 @@ const config = {
       {
         id: "sui-api-reference",
         path: "./src/swagger/sui-openapi.json",
-        routeBasePath: "sui-api-reference",
+        routeBasePath: "sui-api-reference1",
       },
     ],
   ],
