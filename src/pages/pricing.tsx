@@ -9,6 +9,7 @@ import { beConfig } from "../config";
 import {CustomerReferences} from "@site/src/components/customer-references";
 import {FaqItem} from "@site/src/components/faq-item";
 import {useAos} from "@site/src/components/use-aos";
+import {SeoHead} from "@site/src/components/seo-head";
 
 export default function Pricing() {
   const {siteConfig} = useDocusaurusContext();
@@ -17,6 +18,7 @@ export default function Pricing() {
     <Layout
       title={"Pricing"}
       description={"Pricing plans for every team. Instant and reliable access to Aptos APIs, provided by Block Eden."}>
+      <SeoHead/>
 
 
       <main>

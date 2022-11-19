@@ -5,11 +5,11 @@ import Layout from '@theme/Layout';
 import Hls from "hls.js";
 import styles from './index.module.css';
 import {GetStarted} from "@site/src/components/get-started";
-import {Helmet} from 'react-helmet-async';
 import {News} from "@site/src/components/news";
 import {Features} from "@site/src/components/features";
 import { beConfig } from '../config';
 import {useAos} from "@site/src/components/use-aos";
+import {SeoHead} from "@site/src/components/seo-head";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -87,6 +87,7 @@ export default function Home(): JSX.Element {
     <Layout
       title={"Block Eden Aptos REST and GraphQL API Node Service"}
       description={siteConfig.tagline}>
+      <SeoHead/>
 
       <HomepageHeader/>
       <main>
