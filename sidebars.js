@@ -36,6 +36,11 @@ const sidebars = {
       label: 'Sui API',
       items: [
         'sui/index',
+        {
+          type: 'link',
+          href: "https://docs.sui.io/sui-jsonrpc"
+          , label: "Sui API Reference"
+        },
       ],
     },
   ],
