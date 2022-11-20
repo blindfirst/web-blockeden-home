@@ -11,3 +11,11 @@
 .label {
   text-transform: capitalize;
 }
+
+.desc {
+  color: var(--ifm-font-color-base);
+}
+
+.desc:hover {
+  color: var(--ifm-link-hover-color);
+}
