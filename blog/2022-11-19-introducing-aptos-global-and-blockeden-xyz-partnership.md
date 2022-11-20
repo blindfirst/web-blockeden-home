@@ -24,7 +24,14 @@ Twitter: https://twitter.com/AptosGlobalHQ
 
 BlockEden was chosen because of the quality of its infrastructure and dedication to developer experience.
 
-BlockEden.xyz is a San Francisco-based software company that helps web3 developers connect to the Aptos network instantly and securely. We are excited to be working with Aptos Global as their infrastructure provider of choice and we believe that this partnership is just the beginning of great things to come for both sides. Stay tuned for more news and updates!
+- We serve standard blockchain APIs with security, reliability, and high availability. Our nodes are running the latest version with 99.9% uptime.
+- Developers can connect their DApps to our nodes instantly, without the hassle of DevOps.
+- We are the only commercial GraphQL API provider in the Aptos ecosystem.
+- Data analysts could write SQL against our indexed data and build a visualization dashboard for free.
+
+BlockEden.xyz is a San Francisco-based software company that helps web3 developers connect to the Aptos network instantly and securely.
+
+We are excited to be working with Aptos Global as their infrastructure provider of choice and we believe that this partnership is just the beginning of great things to come for both sides. Stay tuned for more news and updates!
 
 * Twitter: https://twitter.com/BlockEdenHQ
 * Discord: https://discord.gg/4Yfvs2HWey
