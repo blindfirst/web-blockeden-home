@@ -9,6 +9,7 @@ import {News} from "@site/src/components/news";
 import {Features} from "@site/src/components/features";
 import { beConfig } from '../config';
 import {useAos} from "@site/src/components/use-aos";
+import {SeoHead} from "@site/src/components/seo-head";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -87,6 +88,7 @@ export default function Home(): JSX.Element {
     <Layout
       title={"BlockEden.xyz: most reliable web3 infra for Aptos & Sui developers"}
       description={siteConfig.tagline}>
+      <SeoHead/>
 
       <HomepageHeader/>
       <main>

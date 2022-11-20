@@ -18,7 +18,7 @@ export default function Pricing() {
     <Layout
       title={"Pricing"}
       description={"Pricing plans for every team. Instant and reliable access to Aptos APIs, provided by BlockEden.xyz."}>
-
+      <SeoHead/>
 
       <main>
         <>

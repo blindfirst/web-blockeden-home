@@ -84,18 +84,6 @@ const config = {
   themeConfig:
   /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({
-      metadata: [
-        // og
-        {property: "og:description", content: beConfig.description},
-        {property: "og:image", name: "og:image", content: beConfig.previewImageUrl},
-
-        // twitter
-        {name: "twitter:site", content: "@BlockEdenHQ"},
-        {name: "twitter:image", content: beConfig.previewImageUrl},
-        {name: "twitter:title", content: beConfig.title},
-        {name: "twitter:description", content: beConfig.description},
-      ],
-
       navbar: {
         title: 'BlockEden.xyz',
         logo: {
