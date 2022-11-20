@@ -63,7 +63,7 @@ function HomepageHeader() {
           <div className="col-lg-6 text-center text-lg-left mb-lg-0 m-4">
             <h1 className="hero__title">{siteConfig.tagline}</h1>
             <div className="my-4">
-              <p>
+              <p className="lead">
                 {beConfig.description}
               </p>
             </div>
