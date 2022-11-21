@@ -6,7 +6,6 @@ import clsx from "clsx";
 const {blogPosts} = require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
 
 export const News = () => {
-  console.log(blogPosts);
   const recent = blogPosts.slice(0, 3);
   return (
     <section className="bg-primary-2-alt">

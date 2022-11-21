@@ -51,6 +51,11 @@ const config = {
       'docusaurus-preset-openapi',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          filename: 'sitemap.xml',
+        },
         "api": {
           // id: 'cars', // omitted => default instance
           path: './src/swagger/aptos-openapi.json',
@@ -84,6 +89,8 @@ const config = {
   themeConfig:
   /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'aptos graphql, aptos api, sui api, block eden'}],
+
       navbar: {
         title: 'BlockEden.xyz',
         logo: {
