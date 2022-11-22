@@ -2,6 +2,7 @@
 title: Improving dashboard with API usage monitor
 authors: [dora]
 tags: [business]
+image: https://tp-misc.b-cdn.net/blockeden/block-eden-api-calls-line-charts-d2f230217b157657924a0658ee972488.png
 ---
 
 Many of our customers asked us to improve how we measure API consumption. So today, an API usage monitor is added to the dashboard.
