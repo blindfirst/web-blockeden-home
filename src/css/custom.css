@@ -96,3 +96,93 @@ a:hover {
   display: none;
 }
 
+
+.photobanner, .photobanner2 {
+  height: 60px;
+  width: 10000px;
+  margin-bottom: 5px;
+  font-size: 0;
+  align-items: center;
+  overflow: hidden;
+}
+
+.photobanner img, .photobanner2 img {
+  margin-right: 64px;
+  height: 42px;
+}
+
+.photobanner img  {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+/*keyframe animations*/
+.photobanner-first {
+  -webkit-animation: bannermove 25s linear infinite;
+  -moz-animation: bannermove 25s linear infinite;
+  -ms-animation: bannermove 25s linear infinite;
+  -o-animation: bannermove 25s linear infinite;
+  animation: bannermove 25s linear infinite;
+}
+
+@keyframes bannermove {
+  0% {margin-left: 0px;}
+  100% {margin-left: -2130px;}
+}
+
+@-moz-keyframes bannermove {
+  0% {margin-left: 0px;}
+  100% {margin-left: -2130px;}
+}
+
+@-webkit-keyframes bannermove {
+  0% {margin-left: 0px;}
+  100% {margin-left: -2130px;}
+}
+
+@-ms-keyframes bannermove {
+  0% {margin-left: 0px;}
+  100% {margin-left: -2130px;}
+}
+
+@-o-keyframes bannermove {
+  0% {margin-left: 0px;}
+  100% {margin-left: -2130px;}
+}
+
+.photobanner-second {
+  -webkit-animation: bannermoves 25s linear infinite;
+  -moz-animation: bannermoves 25s linear infinite;
+  -ms-animation: bannermoves 25s linear infinite;
+  -o-animation: bannermoves 25s linear infinite;
+  animation: bannermoves 25s linear infinite;
+}
+
+@keyframes bannermoves {
+  0% {margin-left: -2130px;}
+  100% {margin-left: 0px;}
+}
+
+@-moz-keyframes bannermoves {
+  0% {margin-left: -2130px;}
+  100% {margin-left: 0px;}
+}
+
+@-webkit-keyframes bannermoves {
+  0% {margin-left: -2130px;}
+  100% {margin-left: 0px;}
+}
+
+@-ms-keyframes bannermoves {
+  0% {margin-left: -2130px;}
+  100% {margin-left: 0px;}
+}
+
+@-o-keyframes bannermoves {
+  0% {margin-left: -2130px;}
+  100% {margin-left: 0px;}
+}

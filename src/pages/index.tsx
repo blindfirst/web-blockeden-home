@@ -10,6 +10,7 @@ import {Features} from "@site/src/components/features";
 import { beConfig } from '../config';
 import {useAos} from "@site/src/components/use-aos";
 import {SeoHead} from "@site/src/components/seo-head";
+import {SlidingLogos} from "@site/src/components/sliding-logos";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -94,6 +95,7 @@ export default function Home(): JSX.Element {
       <main>
         <Features/>
         <News/>
+        <SlidingLogos/>
         <GetStarted/>
       </main>
     </Layout>
