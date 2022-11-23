@@ -186,3 +186,11 @@ a:hover {
   0% {margin-left: -2130px;}
   100% {margin-left: 0px;}
 }
+
+.navbar {
+  height: 52px;
+}
+
+.navbar-sidebar__brand {
+  height: 52px;
+}
