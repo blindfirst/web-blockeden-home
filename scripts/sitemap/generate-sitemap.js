@@ -7,7 +7,7 @@ const urls = [
   '/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf'
 ].map(it => ({
   url: it,
-  changefreq: 'weekly',
+  changefreq: 'daily',
   priority: 0.5,
 }));
 
