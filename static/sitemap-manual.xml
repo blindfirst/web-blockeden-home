@@ -65,6 +65,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://blockeden.xyz/blog/2022/11/24/blockeden-xyz-becomes-one-of-the-first-sui-devnet-api-providers</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blockeden.xyz/blog/2022/11/25/sui-health-checker</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://blockeden.xyz/blog/archive</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
