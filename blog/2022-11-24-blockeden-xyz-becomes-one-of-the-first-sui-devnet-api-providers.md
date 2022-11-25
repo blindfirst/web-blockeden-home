@@ -53,7 +53,7 @@ Sui is a blockchain with a lot of potential. There are projects like DEXs, games
 
 ## Why Use BlockEden.yxz?
 
-We listen to Aptos and Sui developers every day and are fully committed to serving the best infra for them. Our API service
+We listen to Aptos and Sui developers every day and are fully committed to serving the best infra for them.
 
 If you’re a Web3 developer or app owner in need of an RPC connection for the Sui devnet, look no further than BlockEden.xyz! We are proud to be one of the first infrastructure providers offering this service for this highly anticipated new blockchain. In addition to our RPC connection, we will also offer a variety of other essential services and features for any Web3 project. Learn more about us today and see how we can help you succeed in the blockchain space!
 
