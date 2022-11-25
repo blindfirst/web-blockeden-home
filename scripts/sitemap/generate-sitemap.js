@@ -4,7 +4,8 @@ const fs = require('fs');
 const urls = [
   '/dash/login',
   '/dash/sign-up',
-  '/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf'
+  '/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf',
+  '/sui-health-check',
 ].map(it => ({
   url: it,
   changefreq: 'daily',
