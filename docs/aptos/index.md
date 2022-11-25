@@ -11,7 +11,7 @@ BlockEden.xyz provides [Aptos](https://aptoslabs.com/) node API.
   uptime guarantee.
 * **Instant Availability**: connecting your application with one line of code. No
   syncing, and no complicated setups.
-* **Full Delegation**: freeing you from dealing with DevOps work for Aptos node.
+* **Full Delegation**: freeing yourself from the DevOps work of maintaining Aptos node.
 
 
 

@@ -11,29 +11,21 @@ BlockEden.xyz provides [Sui](https://sui.io/) JSON-RPC API.
   uptime guarantee.
 * **Instant Availability**: connecting your application with one line of code. No
   syncing, and no complicated setups.
-* **Full Delegation**: freeing you from dealing with DevOps work for Sui node.
+* **Full Delegation**: freeing yourself from the DevOps work for maintaining Sui node.
 
-
-## Sign Up
-
-If you don't have an account yet, please [create a BlockEden.xyz account](https://blockeden.xyz/dash/sign-up/) first.
 
 ## Create a BlockEden.xyz access key
 
-You'll need access keys to call our APIs. Here is how to get them.
-
-1. Go to https://blockeden.xyz/dash/
-2. Enter the name of the access key you want to create.
-3. Select a network. We support the following networks...
-   1. **Sui Devnet** for experimenting with new ideas, where transactions have no real value.
-
+**Step 1**. Go to https://blockeden.xyz/dash/. Please sign up if you haven't done so.
+**Step 2**. Input your name for the API key, select Sui Devnet, and then click *+ Create key*.
 
 ![image info](./img/create_sui_access_key.png)
 
-## Make a request with BlockEden.xyz
+**Step 3**. Grab your access URL by clicking it and copying it to the clipboard.
+**Step 4**. Use the access URL in your project like the following. Remember to replace `<access_key>` with your own key.
 
-The access URL is your unique endpoint to use Sui node API. Copy it and
-compose the first request:
+Using `CURL` to connect Sui
+
 ```
 # sui json-rpc discover request
 
@@ -42,15 +34,19 @@ curl -X POST https://sui-devnet.blockeden.xyz/<access_key> \
 -d '{ "jsonrpc":"2.0", "method":"rpc.discover","id":1}'
 ```
 
+Using TypeScript SDK to connect Sui
+
+```typescript
+const { JsonRpcProvider } = require("@mysten/sui.js");
+
+(async () => {
+  const providerUrl = "https://sui-devnet.blockeden.xyz/<access_key>"
+  const provider = new JsonRpcProvider(providerUrl);
+  const totalTxNumber = await provider.getTotalTransactionNumber(
+  );
+  console.log(`${providerUrl} getTotalTransactionNumber: ` + totalTxNumber);
+})()
 ```
-{
-    "jsonrpc": "2.0",
-    "result": {
-        "openrpc": "1.2.6",
-        "info": {
-            ......
-```
-If you see a response like the above, you're all set.
 
 ## API Reference
 

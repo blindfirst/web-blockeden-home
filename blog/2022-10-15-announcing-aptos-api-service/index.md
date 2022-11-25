@@ -15,7 +15,7 @@ In this tutorial, we will share step-by-step tutorials on connecting to Aptos ma
 
 **Step 1**. Go to https://blockeden.xyz/dash/. Please sign up if you haven't done so.
 
-**Step 2**. Input your name for the API key, select Aptos Mainnet GraphQL, and then click + Create key.
+**Step 2**. Input your name for the API key, select Aptos Mainnet, and then click + Create key.
 
 ![create Aptos mainnet api key](./create-apotos-mainnet-api-key.png)
 
