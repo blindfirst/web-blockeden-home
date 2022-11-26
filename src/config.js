@@ -7,7 +7,7 @@ module.exports = {
 
     tagline: 'Most reliable web3 infra for Aptos & Sui developers',
     previewImageUrl: "https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png",
-    title: `BlockEden.xyz | Most reliable web3 infra for Aptos & Sui developers`,
+    title: `BlockEden.xyz - Sui API | Aptos API Node Service | Aptos GraphQL | Aptos Data Analytics`,
     description: "BlockEden.xyz is a suite of APIs powering DApps for Aptos and Sui blockchains of all sizes. Build DApp and scale faster.",
   },
 }

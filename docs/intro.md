@@ -18,7 +18,7 @@ BlockEden.xyz is a suite of APIs powering DApps for Aptos and Sui blockchains of
   * [Public Exemplary Dashboard](https://blockeden.xyz/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf)
   * [Browse and write SQL on Aptos Indexed DB](https://blockeden.xyz/analytics/browse/2/schema/public)
 
-![Most reliable web3 infra for Aptos & Sui developers](https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png "Most reliable web3 infra for Aptos & Sui developers")
+![Sui API and Aptos API Node Service](https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png "Sui API and Aptos API Node Service")
 
 ## Why choose BlockEden.xyz?
 
