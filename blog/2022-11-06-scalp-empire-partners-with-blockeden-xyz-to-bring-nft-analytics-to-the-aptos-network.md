@@ -20,7 +20,7 @@ Scalp Empire is a project aiming to provide our holders with most of the tools n
 
 ## What is BlockEden.xyz?
 
-BlockEden.xyz is a suite of APIs powering DApps for Aptos and Sui blockchains of all sizes. Our software and API service enables you to easily access blockchain data so that you can build DApps quickly and efficiently.
+BlockEden.xyz is a suite of APIs powering DApps of all sizes for Aptos and Sui blockchains. Our software and API service enables you to easily access blockchain data so that you can build DApps quickly and efficiently.
 
 We're excited to see what Scalp Empire builds with BlockEden.xyz's data! If you're interested in learning more about this partnership or getting started with NFTs, be sure to check out https://www.scalp-empire.com/ today.
 

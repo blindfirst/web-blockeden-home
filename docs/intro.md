@@ -3,7 +3,7 @@ image: https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png
 ---
 # Welcome to BlockEden.xyz
 
-BlockEden.xyz is a suite of APIs powering DApps for Aptos and Sui blockchains of all sizes. We currently serve these products:
+BlockEden.xyz is a suite of APIs powering DApps of all sizes for Aptos and Sui blockchains. We currently serve these products:
 
 * Sui Devnet JSON RPC API **(New)**
   * [Get Started](/docs/sui/)

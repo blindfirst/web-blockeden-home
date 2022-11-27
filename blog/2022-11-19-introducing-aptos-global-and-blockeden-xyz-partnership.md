@@ -9,7 +9,7 @@ We are excited to announce our partnership with Aptos Global, the first Aptos Ec
 
 Not only will this teach new skills and strengthen developer communities, but it will also push the limits of new technologies and foster a world-class ecosystem of Aptos developers and entrepreneurs. And what's more - BlockEden.xyz has been chosen as the infrastructure provider of choice for all affiliated projects!
 
-We believe that a simpler and overall better developer experience is key to broad web3 adoption. That's why we've dedicated ourselves to providing a suite of APIs that power DApps for Aptos and Sui blockchains of all sizes. So whether you're just getting started or you're looking to scale up, BlockEden.xyz has you covered.
+We believe that a simpler and overall better developer experience is key to broad web3 adoption. That's why we've dedicated ourselves to providing a suite of APIs that power DApps of all sizes for Aptos and Sui blockchains. So whether you're just getting started or you're looking to scale up, BlockEden.xyz has you covered.
 
 ![Aptos Global and BlockEden.xyz Partnership](https://tp-misc.b-cdn.net/blockeden/AptosGlobal%20and%20BlockEden.xyz.png)
 
