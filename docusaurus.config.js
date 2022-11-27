@@ -147,6 +147,9 @@ const config = {
               {
                 html: `<a href="https://twitter.com/BlockedenHQ" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter</a><br/><div style="font-size: 12px;"><div><br/>`,
               },
+              {
+                html: `<a href="https://medium.com/@BlockEden.xyz" target="_blank" rel="noopener noreferrer" class="footer__link-item">Medium</a><br/><div style="font-size: 12px;"><div><br/>`,
+              }
             ],
           },
           {
