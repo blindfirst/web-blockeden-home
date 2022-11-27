@@ -65,6 +65,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://blockeden.xyz/blog/2022/11/23/partnership-between-aptos-eden-and-blockeden-xyz</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://blockeden.xyz/blog/2022/11/24/blockeden-xyz-becomes-one-of-the-first-sui-devnet-api-providers</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
