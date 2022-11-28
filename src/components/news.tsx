@@ -69,7 +69,7 @@ export const News = () => {
         </div>
         <div className="row">
           <div className="col">
-            <Link href="/blog" className="hover-arrow">
+            <Link href="/blog/" className="hover-arrow">
               View more news
             </Link>
           </div>

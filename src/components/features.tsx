@@ -39,7 +39,7 @@ export const Features = () => {
             <p className="px-xl-4">
               Scalable REST and GraphQL APIs ready for you in a few clicks away. Here is how it works -
             </p>
-            <Link href="/docs/intro" className="hover-arrow">
+            <Link href="/docs/intro/" className="hover-arrow">
               Documentation
             </Link>
           </div>
@@ -67,7 +67,7 @@ export const Features = () => {
             <p className="px-xl-4">
               Quality product delivered to you by a group of engineers from Google, Meta, Uber, and IoTeX.
             </p>
-            <Link className="hover-arrow" href="./about-us">
+            <Link className="hover-arrow" href="/about-us/">
               About us
             </Link>
           </div>
