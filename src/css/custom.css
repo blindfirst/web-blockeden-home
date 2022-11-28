@@ -194,3 +194,28 @@ a:hover {
 .navbar-sidebar__brand {
   height: 52px;
 }
+
+.card1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.625rem; }
+.card1 > hr {
+  margin-right: 0;
+  margin-left: 0; }
+.card1 > .list-group {
+  border-top: inherit;
+  border-bottom: inherit; }
+.card1 > .list-group:first-child {
+  border-top-width: 0;
+  border-top-left-radius: calc(0.625rem - 1px);
+  border-top-right-radius: calc(0.625rem - 1px); }
+.card1 > .list-group:last-child {
+  border-bottom-width: 0;
+  border-bottom-right-radius: calc(0.625rem - 1px);
+  border-bottom-left-radius: calc(0.625rem - 1px); }
