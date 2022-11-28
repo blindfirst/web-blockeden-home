@@ -11,8 +11,6 @@ export const SeoHead: React.FC = () => {
       <meta name="twitter:description" content={beConfig.description}/>
       <meta property="og:description" content={beConfig.description}/>
       <meta property="og:image" name="og:image" content={beConfig.previewImageUrl}/>
-
-      <script src={"https://raw.githubusercontent.com/iconfu/svg-inject/v1.2.3/dist/svg-inject.min.js"}></script>
     </Head>
   );
 }
