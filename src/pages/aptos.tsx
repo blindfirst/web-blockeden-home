@@ -1,9 +1,8 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useEffect } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import {useAos} from "@site/src/components/use-aos";
 import {SeoHead} from "@site/src/components/seo-head";
-import SVGInject from "@iconfu/svg-inject";
 import CountUp from 'react-countup';
 import Link from "@docusaurus/Link";
 
@@ -11,6 +10,7 @@ export default function Aptos(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   useAos();
   useEffect(() => {
+    const SVGInject = require("@iconfu/svg-inject");
     SVGInject(document.querySelectorAll('[data-inject-svg]'));
   }, []);
   return (
@@ -28,9 +28,9 @@ export default function Aptos(): JSX.Element {
                   <p className="lead">BlockEden.xyz provides Standard Aptos API and Aptos GraphQL services and data analytics</p>
                   <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5">
                     <div className="d-flex flex-column mx-1 text-center">
-                      <Link href="/dash/sign-up/" className="btn btn-lg btn-primary mb-2 d-flex align-items-center">
+                      <a href="/dash/sign-up/" className="btn btn-lg btn-primary mb-2 d-flex align-items-center">
                         <span>Get started for free</span>
-                      </Link>
+                      </a>
                       <Link href="/docs/aptos/" className="text-small hover-arrow">View Documentation</Link>
                     </div>
                     <a href="/pricing" className="mx-1 btn btn-lg btn-primary-3 mt-3 mt-sm-0">Go Pro</a>
@@ -107,7 +107,7 @@ export default function Aptos(): JSX.Element {
             <div className="container pb-0">
               <div className="row justify-content-center text-center mb-6">
                 <div className="col-xl-8 col-lg-9">
-                  <h2 className="display-4 mx-xl-6">Trusted since day-one</h2>
+                  <h2 className="display-4 mx-xl-6"> since day-one</h2>
                   <p className="lead">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.
                   </p>
