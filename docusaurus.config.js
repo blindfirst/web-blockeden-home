@@ -149,7 +149,10 @@ const config = {
               },
               {
                 html: `<a href="https://medium.com/@BlockEden.xyz" target="_blank" rel="noopener noreferrer" class="footer__link-item">Medium</a><br/><div style="font-size: 12px;"><div><br/>`,
-              }
+              },
+              {
+                html: `<a href="https://mirror.xyz/0x1De85782A08Ee77371D7A711B1370fA369b01A89" target="_blank" rel="noopener noreferrer" class="footer__link-item">Mirror</a><br/><div style="font-size: 12px;"><div><br/>`,
+              },
             ],
           },
           {
