@@ -265,7 +265,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blockeden.xyz/sui-health-check/</loc>
+    <loc>https://blockeden.xyz/sui-health-checker/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
