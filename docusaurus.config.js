@@ -140,19 +140,24 @@ const config = {
             title: 'Contact',
             items: [
               {
-                html: `<a href="https://discord.gg/GqzTYQ4YNa" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discrod Support Channel</a><br/><div style="font-size: 12px;">Singapore Time (SGT) Mon - Fri 7am - 3pm<div><br/>`,
+                label: 'Discord',
+                to: 'https://discord.gg/4Yfvs2HWey',
               },
               {
-                html: `<a href="https://discord.gg/4Yfvs2HWey" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord</a><br/><div style="font-size: 12px;"><div><br/>`,
+                label: 'Twitter',
+                to: 'https://twitter.com/BlockedenHQ',
               },
               {
-                html: `<a href="https://twitter.com/BlockedenHQ" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter</a><br/><div style="font-size: 12px;"><div><br/>`,
+                label: 'Medium',
+                to: 'https://medium.com/@BlockEden.xyz',
               },
               {
-                html: `<a href="https://medium.com/@BlockEden.xyz" target="_blank" rel="noopener noreferrer" class="footer__link-item">Medium</a><br/><div style="font-size: 12px;"><div><br/>`,
+                label: 'Mirror',
+                to: 'https://mirror.xyz/0x1De85782A08Ee77371D7A711B1370fA369b01A89',
               },
               {
-                html: `<a href="https://mirror.xyz/0x1De85782A08Ee77371D7A711B1370fA369b01A89" target="_blank" rel="noopener noreferrer" class="footer__link-item">Mirror</a><br/><div style="font-size: 12px;"><div><br/>`,
+                label: 'info@BlockEden.xyz',
+                to: 'mailto:info@BlockEden.xyz',
               },
             ],
           },
