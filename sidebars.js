@@ -19,27 +19,42 @@ const sidebars = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    'intro',
     {
-      type: 'category',
-      label: 'Aptos API',
-      items: [
-        'aptos/index',
-        {
-          type: 'link',
-          href: "/aptos-api-reference/get-ledger-info"
-          , label: "Aptos API Reference"
-        }],
+      type: "doc",
+      id: 'intro',
+      label: 'Welcome to BlockEden.xyz 👋'
     },
     {
       type: 'category',
-      label: 'Sui API',
+      label: 'Aptos API 🌎 ',
+      collapsible: false,
       items: [
-        'sui/index',
+        {
+          type: "doc",
+          id: 'aptos/index',
+          label: 'Get started'
+        },
         {
           type: 'link',
-          href: "https://docs.sui.io/sui-jsonrpc"
-          , label: "Sui API Reference"
+          href: "/aptos-api-reference/get-ledger-info",
+          label: "Aptos API Reference"
+        }
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Sui API 💧 ',
+      collapsible: false,
+      items: [
+        {
+          type: "doc",
+          id: 'sui/index',
+          label: 'Get started'
+        },
+        {
+          type: 'doc',
+          id: 'sui/api-reference',
+          label: "Sui API Reference"
         },
       ],
     },
