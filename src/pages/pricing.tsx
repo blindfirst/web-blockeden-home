@@ -52,7 +52,7 @@ export default function Pricing() {
           <section>
             <div className="container">
               <div className="row mb-4">
-                <div className="col-md-4" data-aos="fade-up" data-aos-delay={100}>
+                <div className="col-md-3" data-aos="fade-up" data-aos-delay={100}>
                   <div className="card card-body align-items-center ">
                     <div className="pt-md-2">
                       <h4>Free</h4>
@@ -64,7 +64,7 @@ export default function Pricing() {
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
-                        <span>100,000 compute units / day</span>
+                        <span>100,000 CUs / day</span>
                       </li>
                       <li className="py-1">
                         <span>1 request / second</span>
@@ -83,9 +83,8 @@ export default function Pricing() {
                     </a>
                   </div>
                 </div>
-                <div className="col-md-4" data-aos="fade-up" data-aos-delay={200}>
-                  <div className="card card-body align-items-center shadow-3d">
-                    <span className="badge badge-top badge-dark">Most Popular</span>
+                <div className="col-md-3" data-aos="fade-up" data-aos-delay={200}>
+                  <div className="card card-body align-items-center">
                     <div className="pt-md-2">
                       <h4>Pro</h4>
                     </div>
@@ -96,7 +95,7 @@ export default function Pricing() {
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
-                        <span>1,000,000 compute units / day</span>
+                        <span>1,000,000 cu / day</span>
                       </li>
                       <li className="py-1">
                         <span>10 requests / second</span>
@@ -110,15 +109,47 @@ export default function Pricing() {
                         </span>
                       </li>
                     </ul>
-                    <a href="https://blockeden.xyz/dash/create-payment-subscription" className="btn btn-primary">
+                    <a href="https://blockeden.xyz/dash/create-payment-subscription" className="btn btn-outline-primary">
                       Get started
                     </a>
                   </div>
                 </div>
-                <div className="col-md-4" data-aos="fade-up" data-aos-delay={300}>
+                <div className="col-md-3" data-aos="fade-up" data-aos-delay={300}>
+                  <div className="card card-body align-items-center shadow-3d">
+                    <span className="badge badge-top badge-dark">Most Popular</span>
+                    <div className="pt-md-2">
+                      <h4>Enterprise 50</h4>
+                    </div>
+                    <div className="d-flex align-items-start pb-md-2">
+                      <span className="h3">$</span>
+                      <span className="display-4 mb-0">200</span>
+                    </div>
+                    <span className="text-small text-muted">per month</span>
+                    <ul className="text-center list-unstyled my-2 my-md-4">
+                      <li className="py-1">
+                        <span>4,320,000 CUs / day</span>
+                      </li>
+                      <li className="py-1">
+                        <span>50 requests / second</span>
+                      </li>
+                      <li className="py-1">
+                        <span>25 project / network</span>
+                      </li>
+                      <li className="py-1">
+                        <span>
+                          Pay with crypto
+                        </span>
+                      </li>
+                    </ul>
+                    <a href="https://blockeden.xyz/dash/create-payment-subscription?planId=price_1M0tNcEqsEqs2tLVbv29zQuk" className="btn btn-primary">
+                      Get started
+                    </a>
+                  </div>
+                </div>
+                <div className="col-md-3" data-aos="fade-up" data-aos-delay={400}>
                   <div className="card card-body align-items-center ">
                     <div className="pt-md-2">
-                      <h4>Enterprise</h4>
+                      <h4>custom</h4>
                     </div>
                     <div className="d-flex align-items-start pb-md-2">
                       <span className="display-4 mb-0">Custom</span>
@@ -129,7 +160,7 @@ export default function Pricing() {
                         <span>Customized</span>
                       </li>
                       <li className="py-1">
-                        <span>compute units / day</span>
+                        <span>CUs / day</span>
                       </li>
                       <li className="py-1">
                         <span>requests / second</span>
