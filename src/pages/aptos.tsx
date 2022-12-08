@@ -5,6 +5,8 @@ import {useAos} from "@site/src/components/use-aos";
 import {SeoHead} from "@site/src/components/seo-head";
 import CountUp from 'react-countup';
 import Link from "@docusaurus/Link";
+import styles from "./aptos.module.css";
+import clsx from "clsx";
 
 export default function Aptos(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
@@ -15,7 +17,7 @@ export default function Aptos(): JSX.Element {
   }, []);
   return (
     <Layout
-      title={"Aptos - BlockEden.xyz"}
+      title={"Aptos API and Data Analytics"}
       description={siteConfig.tagline}>
       <SeoHead/>
 
@@ -24,8 +26,8 @@ export default function Aptos(): JSX.Element {
             <div className="container">
               <div className="row justify-content-center text-center mb-6">
                 <div className="col-xl-8 col-lg-9 col-md-10">
-                  <h1 className="display-5">Your One-Stop Infrastructure for Aptos</h1>
-                  <p className="lead">BlockEden.xyz provides Standard Aptos API and Aptos GraphQL services and data analytics</p>
+                  <h1 className="display-5">Your One-Stop Service Infrastructure for Aptos</h1>
+                  <p className="lead">BlockEden.xyz provides Standard Aptos RPC, GraphQL API and data analytics</p>
                   <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5">
                     <div className="d-flex flex-column mx-1 text-center">
                       <a href="/dash/sign-up/" className="btn btn-lg btn-primary mb-2 d-flex align-items-center">
@@ -62,8 +64,8 @@ export default function Aptos(): JSX.Element {
                         <img className="icon bg-primary" src="/assets/img/icons/theme/general/shield-protected.svg" alt="icon" data-inject-svg />
                       </div>
                       <div>
-                        <h4 className="mb-2">Authentication</h4>
-                        <p className="lead pr-xl-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                        <h4 className={clsx("mb-2", styles.h4)}>Chain RPC and GraphQL API</h4>
+                        <p className="lead pr-xl-4">More than standard RPC, we index and prepare NFT, coin, events data out of box.</p>
                       </div>
                     </div>
                     <div className="col-md-6 d-flex mb-4" data-aos="fade-up" data-aos-delay={200}>
@@ -71,8 +73,8 @@ export default function Aptos(): JSX.Element {
                         <img className="icon bg-primary" src="/assets/img/icons/theme/code/code.svg" alt="icon" data-inject-svg />
                       </div>
                       <div>
-                        <h4 className="mb-2">Developer First</h4>
-                        <p className="lead pr-xl-4">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h4 className={clsx("mb-2", styles.h4)}>Data Analytics</h4>
+                        <p className="lead pr-xl-4">We have a web portal for developers to inspect data, write SQL, and build data visualization dashboards.</p>
                       </div>
                     </div>
                     <div className="col-md-6 d-flex mb-4" data-aos="fade-up" data-aos-delay={300}>
@@ -80,8 +82,8 @@ export default function Aptos(): JSX.Element {
                         <img className="icon bg-primary" src="/assets/img/icons/theme/shopping/box-2.svg" alt="icon" data-inject-svg />
                       </div>
                       <div>
-                        <h4 className="mb-2">NPM Package</h4>
-                        <p className="lead pr-xl-4">Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h4 className={clsx("mb-2", styles.h4)}>High Reliability</h4>
+                        <p className="lead pr-xl-4">99.9% uptime API over HTTPs, hosted on AWS's quality servers.</p>
                       </div>
                     </div>
                     <div className="col-md-6 d-flex mb-4" data-aos="fade-up" data-aos-delay={400}>
@@ -89,8 +91,8 @@ export default function Aptos(): JSX.Element {
                         <img className="icon bg-primary" src="/assets/img/icons/theme/weather/cloudy-night.svg" alt="icon" data-inject-svg />
                       </div>
                       <div>
-                        <h4 className="mb-2">Nightly Releases</h4>
-                        <p className="lead pr-xl-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                        <h4 className={clsx("mb-2", styles.h4)}>Hands-on Support</h4>
+                        <p className="lead pr-xl-4">We work with Aptos developers daily and build the future together with the community.</p>
                       </div>
                     </div>
                   </div>
@@ -98,7 +100,7 @@ export default function Aptos(): JSX.Element {
               </div>
               <div className="row">
                 <div className="col text-center">
-                  <a href="#" className="lead hover-arrow">Explore all features</a>
+                  <a href="https://blockeden.xyz/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf" className="lead hover-arrow">Explore data analytics</a>
                 </div>
               </div>
             </div>
@@ -107,9 +109,9 @@ export default function Aptos(): JSX.Element {
             <div className="container pb-0">
               <div className="row justify-content-center text-center mb-6">
                 <div className="col-xl-8 col-lg-9">
-                  <h2 className="display-4 mx-xl-6"> since day-one</h2>
+                  <h2 className="display-4 mx-xl-6">Serve Aptos developers since mainnet day-one</h2>
                   <p className="lead">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.
+                    We are a fully-committed team striving to bringing web3 to everyone on the planet, together with developers and businesses.
                   </p>
                 </div>
               </div>
@@ -128,29 +130,30 @@ export default function Aptos(): JSX.Element {
                 <div className="col-md-4 mb-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay={200}>
                   <CountUp
                     className="display-4 text-primary-2 d-block"
-                    start={100000}
-                    end={200000}
+                    start={0}
+                    end={300}
                     duration={3}
                     suffix={"+"}
                   />
-                  <span className="h6">Monthly Installs</span>
+                  <span className="h6">Teams' Choice</span>
                 </div>
                 <div className="col-md-4 mb-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay={300}>
                   <CountUp
                     className="display-4 text-primary-2 d-block"
-                    start={1000000}
-                    end={2394421}
+                    start={0}
+                    end={100}
+                    suffix={"%"}
                     duration={3}
                   />
-                  <span className="h6">Total Downloads</span>
+                  <span className="h6">Uptime since day-one</span>
                 </div>
               </div>
               <div className="row justify-content-center mt-6 mb-lg-n7">
                 <div className="col-xl-8 col-lg-9 layer-1">
                   <div className="video-poster shadow-lg rounded mb-3">
-                    <a data-fancybox href="https://vimeo.com/40842620" className="btn btn-lg btn-primary btn-round">
-                      <img className="icon" src="/assets/img/icons/theme/media/play.svg" alt="play icon" data-inject-svg />
-                    </a>
+                    {/*<a data-fancybox href="https://vimeo.com/40842620" className="btn btn-lg btn-primary btn-round">*/}
+                    {/*  <img className="icon" src="/assets/img/icons/theme/media/play.svg" alt="play icon" data-inject-svg />*/}
+                    {/*</a>*/}
                     <img src="/assets/img/software-library-1.jpg" alt="Image" />
                   </div>
                 </div>
@@ -164,64 +167,64 @@ export default function Aptos(): JSX.Element {
             <div className="container pb-md-6">
               <div className="row mb-4">
                 <div className="col">
-                  <h2 className="h1">Premium Features</h2>
+                  <h2 className="h1">FAQ</h2>
                 </div>
               </div>
               <div className="row">
                 <div className="col-md-4 d-flex mb-4" data-aos="fade-up" data-aos-delay={100}>
                   <img className="icon" src="/assets/img/icons/theme/shopping/wallet.svg" alt="icon" data-inject-svg />
                   <div className="ml-3">
-                    <h5>Payment Processing</h5>
+                    <h5>What is Aptos?</h5>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                      Aptos is a layer one proof-of-stake blockchain that uses key elements of Diem, the former Meta blockchain, and Move, a programming language developed by Meta using the Rust language.
                     </p>
                   </div>
                 </div>
                 <div className="col-md-4 d-flex mb-4" data-aos="fade-up" data-aos-delay={200}>
                   <img className="icon" src="/assets/img/icons/theme/general/settings-1.svg" alt="icon" data-inject-svg />
                   <div className="ml-3">
-                    <h5>Advanced API</h5>
+                    <h5>What is Move?</h5>
                     <p>
-                      Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Move is a smart contract language built by engineers at Meta and intended to be more secure and efficient than Solidity. Those engineers left Meta and built their own blockchain businesses - Aptos Labs and Mysten Labs.
                     </p>
                   </div>
                 </div>
                 <div className="col-md-4 d-flex mb-4" data-aos="fade-up" data-aos-delay={300}>
                   <img className="icon" src="/assets/img/icons/theme/files/cloud-upload.svg" alt="icon" data-inject-svg />
                   <div className="ml-3">
-                    <h5>Cloud Storage</h5>
+                    <h5>Is Aptos blockchain a good place to build?</h5>
                     <p>
-                      Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Hundreds of projects are built in the Aptos ecosystem, and the chain could undertake 100,000 transactions per second. So there is still great potential for builders.
                     </p>
                   </div>
                 </div>
-                <div className="col-md-4 d-flex mb-4" data-aos="fade-up" data-aos-delay={400}>
-                  <img className="icon" src="/assets/img/icons/theme/communication/group.svg" alt="icon" data-inject-svg />
-                  <div className="ml-3">
-                    <h5>Unlimited Collaborators</h5>
-                    <p>
-                      Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-4 d-flex mb-4" data-aos="fade-up" data-aos-delay={500}>
-                  <img className="icon" src="/assets/img/icons/theme/shopping/chart-line-1.svg" alt="icon" data-inject-svg />
-                  <div className="ml-3">
-                    <h5>Analytics API</h5>
-                    <p>
-                      Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-4 d-flex mb-4" data-aos="fade-up" data-aos-delay={600}>
-                  <img className="icon" src="/assets/img/icons/theme/tools/pantone.svg" alt="icon" data-inject-svg />
-                  <div className="ml-3">
-                    <h5>White Labelable</h5>
-                    <p>
-                      Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
-                </div>
+                {/*<div className="col-md-4 d-flex mb-4" data-aos="fade-up" data-aos-delay={400}>*/}
+                {/*  <img className="icon" src="/assets/img/icons/theme/communication/group.svg" alt="icon" data-inject-svg />*/}
+                {/*  <div className="ml-3">*/}
+                {/*    <h5>Unlimited Collaborators</h5>*/}
+                {/*    <p>*/}
+                {/*      Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*/}
+                {/*    </p>*/}
+                {/*  </div>*/}
+                {/*</div>*/}
+                {/*<div className="col-md-4 d-flex mb-4" data-aos="fade-up" data-aos-delay={500}>*/}
+                {/*  <img className="icon" src="/assets/img/icons/theme/shopping/chart-line-1.svg" alt="icon" data-inject-svg />*/}
+                {/*  <div className="ml-3">*/}
+                {/*    <h5>Analytics API</h5>*/}
+                {/*    <p>*/}
+                {/*      Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*/}
+                {/*    </p>*/}
+                {/*  </div>*/}
+                {/*</div>*/}
+                {/*<div className="col-md-4 d-flex mb-4" data-aos="fade-up" data-aos-delay={600}>*/}
+                {/*  <img className="icon" src="/assets/img/icons/theme/tools/pantone.svg" alt="icon" data-inject-svg />*/}
+                {/*  <div className="ml-3">*/}
+                {/*    <h5>White Labelable</h5>*/}
+                {/*    <p>*/}
+                {/*      Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*/}
+                {/*    </p>*/}
+                {/*  </div>*/}
+                {/*</div>*/}
               </div>
             </div>
           </section>
@@ -231,9 +234,9 @@ export default function Aptos(): JSX.Element {
                 <div className="col">
                   <div className="card1 card-body border-0 o-hidden mb-0 shadow-3d text-light bg-primary">
                     <div className="position-relative d-flex flex-column flex-md-row justify-content-between align-items-center">
-                      <div className="h3 text-center mb-md-0">Start building beautiful websites</div>
-                      <a href="#" className="btn btn-lg btn-white">
-                        Purchase Now
+                      <h3 className={clsx("h3 text-center mb-md-0", styles.h3)}>Start building on Aptos</h3>
+                      <a href="/dash/sign-up" className="btn btn-lg btn-white">
+                        Sign up now
                       </a>
                     </div>
                     <div className="decoration layer-0">
@@ -244,14 +247,14 @@ export default function Aptos(): JSX.Element {
               </div>
             </div>
           </section>
-          <section className="pt-0">
-            <div className="container">
-              <div className="row justify-content-center text-center">
-                <div className="col">
-                  <h3 className="h1">Developers love Leap</h3>
-                  <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                </div>
-              </div>
+          {/*<section className="pt-0">*/}
+          {/*  <div className="container">*/}
+              {/*<div className="row justify-content-center text-center">*/}
+              {/*  <div className="col">*/}
+              {/*    <h3 className="h1">Developers love BlockEden.xyz</h3>*/}
+              {/*    <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>*/}
+              {/*  </div>*/}
+              {/*</div>*/}
               {/*<div className="row justify-content-center mt-6">*/}
               {/*  <div className="col-xl-7 col-lg-8 col-md-10">*/}
               {/*    <div data-flickity="{ &quot;imagesLoaded&quot;: true, &quot;wrapAround&quot;: true }">*/}
@@ -300,8 +303,8 @@ export default function Aptos(): JSX.Element {
               {/*    </div>*/}
               {/*  </div>*/}
               {/*</div>*/}
-            </div>
-          </section>
+          {/*  </div>*/}
+          {/*</section>*/}
           <section className="pt-0">
             <div className="container">
               <div className="row text-center mb-5">
@@ -313,19 +316,21 @@ export default function Aptos(): JSX.Element {
                 <div className="col">
                   <ul className="d-flex flex-wrap justify-content-center list-unstyled">
                     <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={100}>
-                      <img className="bg-primary-3 icon icon-md opacity-20" src="/assets/img/logos/brand/apple.svg" alt="icon" data-inject-svg />
+                      <img  style={{width: "140px"}} className="icon-md " src="https://tp-misc.b-cdn.net/blockeden/secure3.svg" alt="icon"  />
                     </li>
                     <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={200}>
-                      <img className="bg-primary-3 icon icon-md opacity-20" src="/assets/img/logos/brand/buzzfeed.svg" alt="icon" data-inject-svg />
+                      <img style={{width: "150px"}} className="icon icon-md" src="https://tp-misc.b-cdn.net/blockeden/iotex-logo.png" alt="icon" />
                     </li>
                     <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={300}>
-                      <img className="bg-primary-3 icon icon-md opacity-20" src="/assets/img/logos/brand/intercom.svg" alt="icon" data-inject-svg />
+                      <img style={{width: "140px"}} className="icon-md" src="https://tp-misc.b-cdn.net/blockeden/aptos-logo.svg" alt="icon"  />
                     </li>
+
+
                     <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={400}>
-                      <img className="bg-primary-3 icon icon-md opacity-20" src="/assets/img/logos/brand/slack.svg" alt="icon" data-inject-svg />
+                      <img style={{width: "160px"}} className=" icon-md " src="https://tp-misc.b-cdn.net/blockeden/aptos-eden-hei-heng.png" alt="icon"  />
                     </li>
                     <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={500}>
-                      <img className="bg-primary-3 icon icon-md opacity-20" src="/assets/img/logos/brand/spotify.svg" alt="icon" data-inject-svg />
+                      <img style={{width: "160px"}} className=" icon-md" src="https://tp-misc.b-cdn.net/blockeden/aptos-global-1.png" alt="icon"  />
                     </li>
                   </ul>
                 </div>

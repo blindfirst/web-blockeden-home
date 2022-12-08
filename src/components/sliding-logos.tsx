@@ -15,6 +15,8 @@ export const SlidingLogos = () => {
           <img src="https://tp-misc.b-cdn.net/blockeden/1600px-Uber_logo_2018.svg.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/1000px-Yale_University_logo.svg.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/iotex-logo.png"/>
+          <img src="https://tp-misc.b-cdn.net/blockeden/aptos-logo.svg"/>
+          <img src="https://tp-misc.b-cdn.net/blockeden/mysten-logo.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/secure3.svg"/>
 
           <img src="https://tp-misc.b-cdn.net/blockeden/Google_2015_logo.svg.png"/>
@@ -25,6 +27,8 @@ export const SlidingLogos = () => {
           <img src="https://tp-misc.b-cdn.net/blockeden/1600px-Uber_logo_2018.svg.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/1000px-Yale_University_logo.svg.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/iotex-logo.png"/>
+          <img src="https://tp-misc.b-cdn.net/blockeden/aptos-logo.svg"/>
+          <img src="https://tp-misc.b-cdn.net/blockeden/mysten-logo.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/secure3.svg"/>
 
           <img src="https://tp-misc.b-cdn.net/blockeden/Google_2015_logo.svg.png"/>
@@ -35,6 +39,8 @@ export const SlidingLogos = () => {
           <img src="https://tp-misc.b-cdn.net/blockeden/1600px-Uber_logo_2018.svg.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/1000px-Yale_University_logo.svg.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/iotex-logo.png"/>
+          <img src="https://tp-misc.b-cdn.net/blockeden/aptos-logo.svg"/>
+          <img src="https://tp-misc.b-cdn.net/blockeden/mysten-logo.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/secure3.svg"/>
 
           <img src="https://tp-misc.b-cdn.net/blockeden/Google_2015_logo.svg.png"/>
@@ -45,17 +51,13 @@ export const SlidingLogos = () => {
           <img src="https://tp-misc.b-cdn.net/blockeden/1600px-Uber_logo_2018.svg.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/1000px-Yale_University_logo.svg.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/iotex-logo.png"/>
+          <img src="https://tp-misc.b-cdn.net/blockeden/aptos-logo.svg"/>
+          <img src="https://tp-misc.b-cdn.net/blockeden/mysten-logo.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/secure3.svg"/>
 
           <img src="https://tp-misc.b-cdn.net/blockeden/Google_2015_logo.svg.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/aptos-global-1.png"/>
           <img src="https://tp-misc.b-cdn.net/blockeden/NationalUniversityofSingapore.svg.png"/>
-          <img src="https://tp-misc.b-cdn.net/blockeden/Meta_Platforms_Inc._logo.svg.png"/>
-          <img src="https://tp-misc.b-cdn.net/blockeden/microsoft.svg"/>
-          <img src="https://tp-misc.b-cdn.net/blockeden/1600px-Uber_logo_2018.svg.png"/>
-          <img src="https://tp-misc.b-cdn.net/blockeden/1000px-Yale_University_logo.svg.png"/>
-          <img src="https://tp-misc.b-cdn.net/blockeden/iotex-logo.png"/>
-          <img src="https://tp-misc.b-cdn.net/blockeden/secure3.svg"/>
         </div>
       </div>
     </section>
