@@ -95,7 +95,7 @@ export default function Pricing() {
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
-                        <span>1,000,000 cu / day</span>
+                        <span>1,000,000 CUs / day</span>
                       </li>
                       <li className="py-1">
                         <span>10 requests / second</span>
