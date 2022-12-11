@@ -130,6 +130,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://blockeden.xyz/brand-assets/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://blockeden.xyz/aptos-api-reference/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

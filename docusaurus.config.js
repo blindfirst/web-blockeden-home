@@ -173,6 +173,10 @@ const config = {
                 href: '/terms-of-service',
               },
               {
+                label: 'Brand Assets',
+                href: '/brand-assets',
+              },
+              {
                 label: "Stargately Home",
                 href: "https://stargately.com/",
               },
