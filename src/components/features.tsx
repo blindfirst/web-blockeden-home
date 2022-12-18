@@ -20,14 +20,14 @@ export const Features = () => {
             data-aos="fade-up"
             data-aos-delay={100}
           >
-            <img src="/assets/img/saas-sketch-2.svg" alt="Image" className="mb-4" />
-            <h4>Easy to build and scale</h4>
+            <img src="/img/aptos-pure-logo.svg" alt="Image" className="mb-4" />
+            <h4>Aptos service infra</h4>
             <p className="px-xl-4">
-              Connect your dApp to Aptos & Sui blockchains instantly and scale with your users.
+              Connect your dApp to Aptos blockchain RPC, GraphQL. Get coin and NFT data analytics in 3 minutes. Scale with your users.
             </p>
-            <a href={beConfig.signUp} className="hover-arrow">
-              Sign up now
-            </a>
+            <Link href="/aptos" className="hover-arrow">
+              Learn more
+            </Link>
           </div>
           <div
             className="col-md-6 col-lg-3 mb-4 mb-lg-0"
