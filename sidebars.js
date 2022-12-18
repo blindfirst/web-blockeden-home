@@ -58,6 +58,11 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: "doc",
+      id: 'compute-unit',
+      label: 'Compute Unit'
+    },
   ],
 };
 
