@@ -48,13 +48,13 @@ export const Features = () => {
             data-aos="fade-up"
             data-aos-delay={300}
           >
-            <img src="/assets/img/saas-sketch-4.svg" alt="Image" className="mb-4" />
+            <img src="/img/discord.svg" alt="Image" className="mb-4" />
             <h4>Hands-on support</h4>
             <p className="px-xl-4">
               Partner engineers at your service now. Singapore Time (SGT) Mon - Fri 7am - 3pm.
             </p>
             <a href={beConfig.supportUrl} className="hover-arrow">
-              Contact support
+              Join Discord
             </a>
           </div>
           <div

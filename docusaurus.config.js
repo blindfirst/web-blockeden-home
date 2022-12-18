@@ -131,8 +131,8 @@ const config = {
                 href: 'https://github.com/blockedenhq',
               },
               {
-                label: 'Aptos API Reference',
-                to: '/aptos-api-reference/get-ledger-info',
+                label: 'Aptos',
+                to: '/aptos',
               },
             ],
           },
