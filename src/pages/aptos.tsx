@@ -17,7 +17,7 @@ export default function Aptos(): JSX.Element {
   }, []);
   return (
     <Layout
-      title={"Aptos API and Data Analytics"}
+      title={"Aptos Node and Data Analytics"}
       description={siteConfig.tagline}>
       <SeoHead/>
 
@@ -65,7 +65,7 @@ export default function Aptos(): JSX.Element {
                       </div>
                       <div>
                         <h4 className={clsx("mb-2", styles.h4)}>Chain RPC and GraphQL API</h4>
-                        <p className="lead pr-xl-4">More than standard RPC, we index and prepare NFT, coin, events data out of box.</p>
+                        <p className="lead pr-xl-4">More than standard Chain node, connect your DApp to NFT, coin, events in 3 mins.</p>
                       </div>
                     </div>
                     <div className="col-md-6 d-flex mb-4" data-aos="fade-up" data-aos-delay={200}>
@@ -74,7 +74,7 @@ export default function Aptos(): JSX.Element {
                       </div>
                       <div>
                         <h4 className={clsx("mb-2", styles.h4)}>Data Analytics</h4>
-                        <p className="lead pr-xl-4">We have a web portal for developers to inspect data, write SQL, and build data visualization dashboards.</p>
+                        <p className="lead pr-xl-4">Inspect data, write SQL, and build data visualization dashboards with our web portal.</p>
                       </div>
                     </div>
                     <div className="col-md-6 d-flex mb-4" data-aos="fade-up" data-aos-delay={300}>
@@ -83,7 +83,7 @@ export default function Aptos(): JSX.Element {
                       </div>
                       <div>
                         <h4 className={clsx("mb-2", styles.h4)}>High Reliability</h4>
-                        <p className="lead pr-xl-4">99.9% uptime API over HTTPs, hosted on AWS's quality servers.</p>
+                        <p className="lead pr-xl-4">99.9% SLA uptime API over HTTPs, hosted on AWS's quality servers.</p>
                       </div>
                     </div>
                     <div className="col-md-6 d-flex mb-4" data-aos="fade-up" data-aos-delay={400}>
@@ -111,7 +111,7 @@ export default function Aptos(): JSX.Element {
                 <div className="col-xl-8 col-lg-9">
                   <h2 className="display-4 mx-xl-6">Serve Aptos developers since mainnet day-one</h2>
                   <p className="lead">
-                    We are a fully-committed team striving to bringing web3 to everyone on the planet, together with developers and businesses.
+                    We are a fully-committed team striving to bringing web3 to everyone on the planet, together with powerful developers and businesses.
                   </p>
                 </div>
               </div>
