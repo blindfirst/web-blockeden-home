@@ -1,7 +1,7 @@
 ---
 title: Master Plan
 authors: [jack]
-tags: [business]
+tags: [company]
 abstract: Master Plan of BlockEden.xyz
 ---
 

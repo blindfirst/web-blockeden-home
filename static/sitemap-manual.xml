@@ -93,7 +93,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blockeden.xyz/blog/tags/business/</loc>
+    <loc>https://blockeden.xyz/blog/tags/company/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blockeden.xyz/blog/tags/engineering/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -103,12 +108,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blockeden.xyz/blog/tags/technology/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blockeden.xyz/blog/tags/tps/</loc>
+    <loc>https://blockeden.xyz/blog/tags/product/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

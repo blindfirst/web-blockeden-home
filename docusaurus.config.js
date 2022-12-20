@@ -75,6 +75,11 @@ const config = {
         gtag: {
           trackingID: 'G-V2HNMTR1D0'
         },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],

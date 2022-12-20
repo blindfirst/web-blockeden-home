@@ -1,11 +1,11 @@
 ---
 title: BlockEden.xyz Partners with Secure3 to Bolster Blockchain Security
 authors: [dora]
-tags: [business]
+tags: [company, partnership]
 image: https://tp-misc.b-cdn.net/blockeden/secure3-blockeden-xyz.png
 ---
 
-Here at BlockEden.xyz, we are always looking for ways to improve the security of digital assets on blockchain for developers and their customers. That's why we're glad to announce our official partnership with Secure3, a collaborative web3 security auditing ecosystem. 
+Here at BlockEden.xyz, we are always looking for ways to improve the security of digital assets on blockchain for developers and their customers. That's why we're glad to announce our official partnership with Secure3, a collaborative web3 security auditing ecosystem.
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: BlockEden.xyz becomes one of the first Sui Devnet API providers
 authors: [jack]
-tags: [business]
+tags: [company, product]
 image: https://tp-misc.b-cdn.net/blockeden/sui-blockeden-xyz.png
 ---
 

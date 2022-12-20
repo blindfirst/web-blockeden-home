@@ -1,7 +1,7 @@
 ---
 title: Scalp Empire Partners with BlockEden.xyz to Bring NFT Analytics to the Aptos Network
 authors: [jack]
-tags: [partnership, business]
+tags: [partnership, company]
 image: https://tp-misc.b-cdn.net/blockeden/scalp-empire.com.jpg
 ---
 

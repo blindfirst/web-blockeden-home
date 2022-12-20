@@ -1,8 +1,7 @@
 ---
 title: Genesis of BlockEden.xyz
 authors: [shaw]
-tags: [business]
-abstract: abstract
+tags: [company]
 ---
 BlockEden.xyz is a one-stop global developer infrastructure of Web3 that
 empower dapp developers to quickly innovate, experiment and iterate.
