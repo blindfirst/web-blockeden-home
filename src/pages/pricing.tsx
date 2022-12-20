@@ -5,7 +5,7 @@ import {GetStarted} from "@site/src/components/get-started";
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Link from "@docusaurus/Link";
-import { beConfig } from "../config";
+import {beConfig} from "../config";
 import {CustomerReferences} from "@site/src/components/customer-references";
 import {FaqItem} from "@site/src/components/faq-item";
 import {useAos} from "@site/src/components/use-aos";
@@ -64,7 +64,7 @@ export default function Pricing() {
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
-                        <span>100,000 CUs / day</span>
+                        <span>100,000 <Link href={"/docs/compute-unit/"}>CUs</Link> / day</span>
                       </li>
                       <li className="py-1">
                         <span>1 request / second</span>
@@ -95,7 +95,7 @@ export default function Pricing() {
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
-                        <span>1,000,000 CUs / day</span>
+                        <span>1,000,000 <Link href={"/docs/compute-unit/"}>CUs</Link> / day</span>
                       </li>
                       <li className="py-1">
                         <span>10 requests / second</span>
@@ -109,7 +109,8 @@ export default function Pricing() {
                         </span>
                       </li>
                     </ul>
-                    <a href="https://blockeden.xyz/dash/create-payment-subscription" className="btn btn-outline-primary">
+                    <a href="https://blockeden.xyz/dash/create-payment-subscription"
+                       className="btn btn-outline-primary">
                       Get started
                     </a>
                   </div>
@@ -127,7 +128,7 @@ export default function Pricing() {
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
-                        <span>4,320,000 CUs / day</span>
+                        <span>4,320,000 <Link href={"/docs/compute-unit/"}>CUs</Link> / day</span>
                       </li>
                       <li className="py-1">
                         <span>50 requests / second</span>
@@ -141,7 +142,9 @@ export default function Pricing() {
                         </span>
                       </li>
                     </ul>
-                    <a href="https://blockeden.xyz/dash/create-payment-subscription?planId=price_1M0tNcEqsEqs2tLVbv29zQuk" className="btn btn-primary">
+                    <a
+                      href="https://blockeden.xyz/dash/create-payment-subscription?planId=price_1M0tNcEqsEqs2tLVbv29zQuk"
+                      className="btn btn-primary">
                       Get started
                     </a>
                   </div>
@@ -160,7 +163,7 @@ export default function Pricing() {
                         <span>Customized</span>
                       </li>
                       <li className="py-1">
-                        <span>CUs / day</span>
+                        <span><Link href={"/docs/compute-unit/"}>CUs</Link> / day</span>
                       </li>
                       <li className="py-1">
                         <span>requests / second</span>
@@ -170,18 +173,18 @@ export default function Pricing() {
                       </li>
                     </ul>
                     <a href={beConfig.supportUrl} className="btn btn-outline-primary">
-                      Talk to us
+                      Contact support
                     </a>
                   </div>
                 </div>
               </div>
-                  <div className="row">
-                    <div className="col text-center">
+              <div className="row">
+                <div className="col text-center">
               <span>
                 Interested in a custom plan? <a href={beConfig.supportUrl}>Get in touch</a>
               </span>
-                    </div>
-                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -259,7 +262,6 @@ export default function Pricing() {
           <CustomerReferences/>
 
 
-
           <section className="bg-primary-alt">
             <div className="container">
               <div className="row justify-content-center">
@@ -270,7 +272,10 @@ export default function Pricing() {
                       delay={100}
                       question={"How do I start?"}
                       answer={
-                        <div>You're only 5-minutes away from using the platform! BlockEden.xyz is open and self-serve, so all you need to do is choose your tier, sign-up, then start using the developer platform! To make getting started as easy as possible, we have a free tier and a simple, step-by-step <Link href={"/docs/aptos/"}>Getting Started Guide</Link> on our docs.</div>
+                        <div>You're only 5-minutes away from using the platform! BlockEden.xyz is open and self-serve,
+                          so all you need to do is choose your tier, sign-up, then start using the developer platform!
+                          To make getting started as easy as possible, we have a free tier and a simple,
+                          step-by-step <Link href={"/docs/aptos/"}>Getting Started Guide</Link> on our docs.</div>
                       }
                     />
 
@@ -278,7 +283,11 @@ export default function Pricing() {
                       delay={200}
                       question={"What is a compute unit (CU)?"}
                       answer={
-                        "A compute unit measures how many resources an API method consumes, e.g., CPU, RAM, disk, etc. For example, a simple REST request only consumes 1 CU, while a more complex GraphQL request consumes 5 CUs."
+                        <p>A compute unit measures how many resources an API method consumes, e.g., CPU, RAM, disk, etc.
+                          For example, a simple REST request only consumes 1 CU, while a more complex GraphQL request
+                          consumes 5 CUs. <Link href="/docs/compute-unit/" className="hover-arrow">
+                            Learn more
+                          </Link></p>
                       }
                     />
 
