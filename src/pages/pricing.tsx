@@ -42,7 +42,7 @@ export default function Pricing() {
                 <div className="col-xl-8 col-lg-10">
                   <h1 className="display-4">Pricing plans for every team</h1>
                   <p className="lead mb-0">
-                    Instant and reliable access to Aptos REST and GraphQL APIs, provided by BlockEden.xyz.
+                    Instant and reliable access to Aptos REST and GraphQL APIs and Sui Node, provided by BlockEden.xyz.
                   </p>
                 </div>
               </div>
@@ -74,6 +74,11 @@ export default function Pricing() {
                       </li>
                       <li className="py-1">
                         <span>
+                          Data analytics web portal
+                        </span>
+                      </li>
+                      <li className="py-1">
+                        <span>
                           Pay with crypto
                         </span>
                       </li>
@@ -102,6 +107,11 @@ export default function Pricing() {
                       </li>
                       <li className="py-1">
                         <span>5 project / network</span>
+                      </li>
+                      <li className="py-1">
+                        <span>
+                          Data analytics web portal
+                        </span>
                       </li>
                       <li className="py-1">
                         <span>
@@ -138,6 +148,11 @@ export default function Pricing() {
                       </li>
                       <li className="py-1">
                         <span>
+                          Data analytics web portal
+                        </span>
+                      </li>
+                      <li className="py-1">
+                        <span>
                           Pay with crypto
                         </span>
                       </li>
@@ -167,6 +182,11 @@ export default function Pricing() {
                       </li>
                       <li className="py-1">
                         <span>requests / second</span>
+                      </li>
+                      <li className="py-1">
+                        <span>
+                          Data analytics web portal
+                        </span>
                       </li>
                       <li className="py-1">
                         <span>Pay with crypto</span>
