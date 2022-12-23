@@ -10,6 +10,8 @@ available to Metamask users ([blog post](https://blockeden.xyz/blog/2022/11/25/i
 which attracted and was used by a few users. Now we decided to expand the
 benefit to our developer customers too!
 
+![eth](./ethereum-logo-landscape-black-gray.png)
+
 ## How to get started?
 
 **Step 1.** Go to https://blockeden.xyz/dash/. Please sign up if you haven’t
@@ -17,6 +19,8 @@ done so.
 
 **Step 2.** Input your name for the API key, select ETH Mainnet, and then click
 **+ Create key**.
+
+![create eth mainnet api key](./create-eth-api-key.png)
 
 **Step 3.** Grab your access URL by clicking it and copying it to the clipboard.
 
@@ -37,7 +41,7 @@ curl --location --request POST ‘https://eth-mainnet.blockeden.xyz/<access_key>
 
 ## Why Ethereum Network?
 
-Ethereum has the biggest developer ecosystem, and there are so many great
+Ethereum network has the biggest developer ecosystem, and there are so many great
 innovations accumulated over years. Supporting it is going to create significant
 synergy with Move ecosystem. Many of our customers are not exclusive Move
 developers. Building a single stop for all needed services makes their life
