@@ -29,7 +29,7 @@ replace `<access_key>` with your own key.
 
 To test it, using `curl` to connect ETH mainnet
 ```
-curl --location --request POST ‘https://eth-mainnet.blockeden.xyz/<access_key>' \
+curl --location --request POST 'https://eth-mainnet.blockeden.xyz/<access_key>' \
 --header 'Content-Type: application/json' \
 --data-raw '{
         "jsonrpc":"2.0",
