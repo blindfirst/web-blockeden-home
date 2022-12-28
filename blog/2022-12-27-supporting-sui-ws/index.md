@@ -62,7 +62,7 @@ And you would also observe events being streamed to your console:
 For more details of subscribing Sui events via WebSocket, please refer to the [offical
 doc](https://docs.sui.io/build/event_api#subscribe-to-sui-events).
 
-# Misc
+## Misc
 
 To prevent too many outstanding idle connections, we will drop any WebSocket connection
 that hasn't exchanged data in the past **5 minutes**. Client will receive an error code:
