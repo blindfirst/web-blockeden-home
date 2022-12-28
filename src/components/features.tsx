@@ -21,7 +21,7 @@ export const Features = () => {
             data-aos-delay={100}
           >
             <img src="/img/aptos-pure-logo.svg" alt="Image" className="mb-4" />
-            <h4>Aptos service infra</h4>
+            <h4>Aptos</h4>
             <p className="px-xl-4">
               Connect your dApp to Aptos blockchain RPC, GraphQL. Get coin and NFT data analytics in 3 minutes. Scale with your users.
             </p>

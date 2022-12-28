@@ -26,8 +26,8 @@ export default function Aptos(): JSX.Element {
             <div className="container">
               <div className="row justify-content-center text-center mb-6">
                 <div className="col-xl-8 col-lg-9 col-md-10">
-                  <h1 className="display-5">Your One-Stop Service Infrastructure for Aptos</h1>
-                  <p className="lead">BlockEden.xyz provides Standard Aptos RPC, GraphQL API and data analytics</p>
+                  <h1 className="display-5">Connect to Aptos and inspect its Coin, NFT, contract call in minutes</h1>
+                  <p className="lead">BlockEden.xyz provides Standard Aptos RPC, indexer GraphQL API and data analytics web portal</p>
                   <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5">
                     <div className="d-flex flex-column mx-1 text-center">
                       <a href="/dash/sign-up/" className="btn btn-lg btn-primary mb-2 d-flex align-items-center">
@@ -35,7 +35,7 @@ export default function Aptos(): JSX.Element {
                       </a>
                       <Link href="/docs/aptos/" className="text-small hover-arrow">View Documentation</Link>
                     </div>
-                    <a href="/pricing" className="mx-1 btn btn-lg btn-primary-3 mt-3 mt-sm-0">Go Pro</a>
+                    <a href="/pricing" className="mx-1 btn btn-lg btn-primary-3 mt-3 mt-sm-0">Pricing plans</a>
                   </div>
                 </div>
               </div>
@@ -54,7 +54,42 @@ export default function Aptos(): JSX.Element {
               {/*</div>*/}
             </div>
           </section>
-          <section className="pt-0">
+
+        <section className="pt-0">
+          <div className="container">
+            <div className="row text-center mb-5">
+              <div className="col">
+                <small className="text-uppercase">Trusted by companies like</small>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <ul className="d-flex flex-wrap justify-content-center list-unstyled">
+                  <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={100}>
+                    <img  style={{width: "140px"}} className="icon-md " src="https://tp-misc.b-cdn.net/blockeden/secure3.svg" alt="icon"  />
+                  </li>
+                  <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={200}>
+                    <img style={{width: "150px"}} className="icon icon-md" src="https://tp-misc.b-cdn.net/blockeden/iotex-logo.png" alt="icon" />
+                  </li>
+                  <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={300}>
+                    <img style={{width: "140px"}} className="icon-md" src="https://tp-misc.b-cdn.net/blockeden/aptos-logo.svg" alt="icon"  />
+                  </li>
+
+
+                  <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={400}>
+                    <img style={{width: "160px"}} className=" icon-md " src="https://tp-misc.b-cdn.net/blockeden/aptos-eden-hei-heng.png" alt="icon"  />
+                  </li>
+                  <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={500}>
+                    <img style={{width: "160px"}} className=" icon-md" src="https://tp-misc.b-cdn.net/blockeden/aptos-global-1.png" alt="icon"  />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section className="pt-0">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-xl-11">
@@ -65,7 +100,7 @@ export default function Aptos(): JSX.Element {
                       </div>
                       <div>
                         <h4 className={clsx("mb-2", styles.h4)}>Chain RPC and GraphQL API</h4>
-                        <p className="lead pr-xl-4">More than standard Chain node, connect your DApp to NFT, coin, events in 3 mins.</p>
+                        <p className="lead pr-xl-4">More than standard RPC, connect your DApp to NFT, coin, events, and more in 3 mins.</p>
                       </div>
                     </div>
                     <div className="col-md-6 d-flex mb-4" data-aos="fade-up" data-aos-delay={200}>
@@ -100,7 +135,7 @@ export default function Aptos(): JSX.Element {
               </div>
               <div className="row">
                 <div className="col text-center">
-                  <a href="https://blockeden.xyz/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf" className="lead hover-arrow">Explore data analytics</a>
+                  <Link href="/docs/aptos/analytics-and-graphql/" className="lead hover-arrow">Explore data analytics</Link>
                 </div>
               </div>
             </div>
@@ -151,10 +186,9 @@ export default function Aptos(): JSX.Element {
               <div className="row justify-content-center mt-6 mb-lg-n7">
                 <div className="col-xl-8 col-lg-9 layer-1">
                   <div className="video-poster shadow-lg rounded mb-3">
-                    {/*<a data-fancybox href="https://vimeo.com/40842620" className="btn btn-lg btn-primary btn-round">*/}
-                    {/*  <img className="icon" src="/assets/img/icons/theme/media/play.svg" alt="play icon" data-inject-svg />*/}
-                    {/*</a>*/}
-                    <img src="/assets/img/software-library-1.jpg" alt="Image" />
+                    <a href={"https://blockeden.xyz/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf"}>
+                      <img src="https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics-share-dashboard.png" alt="Image" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -305,38 +339,6 @@ export default function Aptos(): JSX.Element {
               {/*</div>*/}
           {/*  </div>*/}
           {/*</section>*/}
-          <section className="pt-0">
-            <div className="container">
-              <div className="row text-center mb-5">
-                <div className="col">
-                  <small className="text-uppercase">Trusted by companies like</small>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col">
-                  <ul className="d-flex flex-wrap justify-content-center list-unstyled">
-                    <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={100}>
-                      <img  style={{width: "140px"}} className="icon-md " src="https://tp-misc.b-cdn.net/blockeden/secure3.svg" alt="icon"  />
-                    </li>
-                    <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={200}>
-                      <img style={{width: "150px"}} className="icon icon-md" src="https://tp-misc.b-cdn.net/blockeden/iotex-logo.png" alt="icon" />
-                    </li>
-                    <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={300}>
-                      <img style={{width: "140px"}} className="icon-md" src="https://tp-misc.b-cdn.net/blockeden/aptos-logo.svg" alt="icon"  />
-                    </li>
-
-
-                    <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={400}>
-                      <img style={{width: "160px"}} className=" icon-md " src="https://tp-misc.b-cdn.net/blockeden/aptos-eden-hei-heng.png" alt="icon"  />
-                    </li>
-                    <li className="mx-4 mb-md-5" data-aos="fade-up" data-aos-delay={500}>
-                      <img style={{width: "160px"}} className=" icon-md" src="https://tp-misc.b-cdn.net/blockeden/aptos-global-1.png" alt="icon"  />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
 
       </main>
     </Layout>
