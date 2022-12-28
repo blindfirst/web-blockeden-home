@@ -64,6 +64,6 @@ doc](https://docs.sui.io/build/event_api#subscribe-to-sui-events).
 
 # Misc
 
-To prevent to too many outstanding idle connections, we will drop any WebSocket
-connection that hasn't exchanged data in the past **5 minutes**. Client will receive an
-error code: 1006.
+To prevent too many outstanding idle connections, we will drop any WebSocket connection
+that hasn't exchanged data in the past **5 minutes**. Client will receive an error code:
+1006.
