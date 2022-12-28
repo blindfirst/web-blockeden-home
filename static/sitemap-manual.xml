@@ -83,6 +83,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://blockeden.xyz/blog/2022/12/13/blockeden-xyz-partners-with-secure3-to-bolster-blockchain-security/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blockeden.xyz/blog/2022/12/22/supporting-eth-rpc/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blockeden.xyz/blog/2022/12/27/supporting-sui-ws/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blockeden.xyz/blog/2022/12/30/introducing-blockEden-xyz-analytics/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://blockeden.xyz/blog/archive/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -254,6 +274,16 @@
   </url>
   <url>
     <loc>https://blockeden.xyz/docs/aptos/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blockeden.xyz/docs/aptos/analytics-and-graphql/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blockeden.xyz/docs/compute-unit/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

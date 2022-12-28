@@ -36,7 +36,7 @@ const sidebars = {
         },
         {
           type: "doc",
-          id: 'aptos/aptos-data-analytics',
+          id: 'aptos/analytics-and-graphql',
           label: 'Analytics and GraphQL'
         },
         {
