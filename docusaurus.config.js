@@ -60,6 +60,7 @@ const config = {
           sidebarCollapsible: false,
         },
         docs: {
+          editUrl: "https://github.com/BlockEdenHQ/web-blockeden-home/edit/main",
           sidebarCollapsed: false,
           sidebarPath: require.resolve('./sidebars.js'),
         },
