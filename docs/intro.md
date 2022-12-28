@@ -17,7 +17,8 @@ BlockEden.xyz is a suite of APIs powering DApps of all sizes for Aptos and Sui b
 * Aptos Data Analytics and Business Intelligence
   * [Public Exemplary Dashboard](https://blockeden.xyz/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf)
   * [Browse and write SQL on Aptos Indexed DB](https://blockeden.xyz/analytics/browse/2/schema/public)
-* [Compute Unit and Service Pricing](compute-unit.md)
+
+How much do these services charge? They are free for hobbyists. Professional or enterprise usage is measured in [compute units](compute-unit.md). Learn more in [pricing plans](/pricing).
 
 ![Sui API and Aptos API Node Service](https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png "Sui API and Aptos API Node Service")
 
