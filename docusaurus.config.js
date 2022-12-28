@@ -121,7 +121,7 @@ const config = {
             title: 'Navigate',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
               {
@@ -139,6 +139,10 @@ const config = {
               {
                 label: 'Aptos',
                 to: '/aptos',
+              },
+              {
+                label: 'Sui',
+                to: '/sui',
               },
             ],
           },

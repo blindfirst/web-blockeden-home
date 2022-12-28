@@ -34,13 +34,13 @@ export const Features = () => {
             data-aos="fade-up"
             data-aos-delay={200}
           >
-            <img src="/assets/img/saas-sketch-3.svg" alt="Image" className="mb-4" />
-            <h4>Developers first</h4>
+            <img src="/img/sui-logo.svg" alt="Image" className="mb-4" />
+            <h4>Sui</h4>
             <p className="px-xl-4">
-              Scalable REST and GraphQL APIs ready for you in a few clicks away. Here is how it works -
+              Reliable DevNet JSON RPC and websocket. Scale your DApp and get prepared for the mainnet launch.
             </p>
-            <Link href="/docs/intro/" className="hover-arrow">
-              Documentation
+            <Link href="/sui/" className="hover-arrow">
+              Learn more
             </Link>
           </div>
           <div
