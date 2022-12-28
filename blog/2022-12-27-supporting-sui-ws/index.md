@@ -5,8 +5,7 @@ tags: [product, sui, websocket]
 abstract: We expand Sui API service support to WebSocket.
 ---
 
-We are among [the first Sui Devnet JSON-RPC providers]
-(https://blockeden.xyz/blog/2022/11/24/blockeden-xyz-becomes-one-of-the-first-sui-devnet-api-providers/).
+We are among [the first Sui Devnet JSON-RPC providers](https://blockeden.xyz/blog/2022/11/24/blockeden-xyz-becomes-one-of-the-first-sui-devnet-api-providers/).
 Now we are excited to expand our API Service to **WebSocket** too. WebSocket
 would be useful to those dApps that need to take action on real-time on-chain
 events.
@@ -26,7 +25,7 @@ then click **+ Create key**.
 **Step 4.** Use the access URL in your project like the following. Remember to
 replace `<access_key>` with your own key.
 
-## How to use WebScoket?
+## How to use WebSocket?
 
 To quickly play around WebSocket endpoint in the command line, you could use
 `wscat`. To download it, run the following command:
