@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Aptos Analytics and GraphQL
 
-Raw blockchain data can be difficult for developers to work with for a number of reasons. 
+Raw blockchain data can be difficult for developers to work with for a number of reasons.
 
 1. It is often stored in a proprietary format that is not easily accessible or readable by external systems or tools.
 2. It can be voluminous and complex, making it difficult to extract and analyze the specific information that is needed for a particular application or use case
@@ -76,6 +76,8 @@ You may [create an api key at the dashboard](https://blockeden.xyz/dash/) to get
 
 ### [coin_activities](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjEyfSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
 
+The `coin_activities` table contains all the coin transfter activity history.
+
 | Field                       | Type | Description |
 |-----------------------------| ---- | ----------- |
 |**transaction_version** |  Int8|  |
@@ -83,15 +85,59 @@ You may [create an api key at the dashboard](https://blockeden.xyz/dash/) to get
 |**event_creation_number** |  Int8|  |
 |**event_sequence_number** |  Int8|  |
 |owner_address |  Varchar|  |
-|coin_type |  Varchar|  |
+|coin_type |  Varchar| Coin type or symbol. [Get all registered coin types](https://github.com/trustwallet/assets/tree/master/blockchains/aptos). |
 |amount |  Numeric|  |
-|activity_type |  Varchar|  |
+|activity_type |  Varchar| `0x1::coin::DepositEvent`, `0x1::aptos_coin::GasFeeEvent,` `0x1::coin::WithdrawEvent` |
 |is_gas_fee |  Bool|  |
 |is_transaction_success |  Bool|  |
 |entry_function_id_str | `Nullable<Varchar>` |  |
 |block_height |  Int8|  |
-|transaction_timestamp |  Timestamp|  |
+|transaction_timestamp |  Timestamp| when is the transaction minted |
 |inserted_at |  Timestamp|  |
+
+Example
+
+List 10 most recent USDC coin activities for deposits into a specific address after a date.
+
+Query:
+
+```gql
+query CoinActivities($owner_address: String, $limit: Int, $offset: Int, $coin_type: String, $after_at: timestamp) {
+  coin_activities(
+    where: {owner_address: {_eq: $owner_address}, activity_type: {_eq: "0x1::coin::DepositEvent"}, coin_type: {_eq: $coin_type}, transaction_timestamp: {_gte: $after_at}}
+    order_by: {transaction_version: desc}
+    limit: $limit
+    offset: $offset
+  ) {
+    inserted_at
+    activity_type
+    amount
+    block_height
+    coin_type
+    entry_function_id_str
+    event_account_address
+    event_creation_number
+    event_sequence_number
+    is_gas_fee
+    is_transaction_success
+    owner_address
+    transaction_timestamp
+    transaction_version
+  }
+}
+```
+
+Variables:
+
+```json
+{
+  "owner_address": "0x8304621d9c0f6f20b3b5d1bcf44def4ac5c8bf7c11a1ce80b53778532396312b",
+  "limit": 10,
+  "offset": 0,
+  "coin_type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+  "after_at": "2021-01-07T19:15:58.268388"
+}
+```
 
 
 ### [coin_balances](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjI3fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
@@ -338,7 +384,40 @@ You may [create an api key at the dashboard](https://blockeden.xyz/dash/) to get
 |is_deleted |  Bool|  |
 |inserted_at |  Timestamp|  |
 
+Examples
 
+List all the move resources for a specific account by address, time and type.
+
+Query:
+
+```gql
+query AccountTransactionsData($address: String, $limit: Int, $offset: Int, $after_at: timestamp, $type: String) {
+  move_resources(
+    where: {address: {_eq: $address}, inserted_at: {_gte: $after_at}, type: {_eq: $type}}
+    order_by: {transaction_version: desc}
+    distinct_on: transaction_version
+    limit: $limit
+    offset: $offset
+  ) {
+    type
+    transaction_version
+    data
+    inserted_at
+  }
+}
+```
+
+Variables:
+
+```json
+{
+  "address": "0x8304621d9c0f6f20b3b5d1bcf44def4ac5c8bf7c11a1ce80b53778532396312b",
+  "limit": 100,
+  "offset": 0,
+  "after_at": "2022-01-07T19:15:58.268388",
+  "type": "0x1::coin::CoinStore<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T>"
+}
+```
 
 
 ### [processor_status](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjI0fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
@@ -521,6 +600,8 @@ You may [create an api key at the dashboard](https://blockeden.xyz/dash/) to get
 |num_write_set_changes |  Int8|  |
 |inserted_at |  Timestamp|  |
 |epoch |  Int8|  |
+
+
 
 
 
