@@ -26,4 +26,17 @@ Another useful feature of BlockEden.xyz Analytics is the ability to share data a
 
 
 
-In summary, blockEden.xyz Analytics is a powerful tool for exploring and analyzing blockchain data. Its user-friendly interface and ability to query, visualize, and share data make it an invaluable resource for anyone looking to gain insights into the world of blockchain, starting from Aptos and Sui. Get started now at https://blockeden.xyz/analytics.
+In summary, blockEden.xyz Analytics is a powerful tool for exploring and analyzing blockchain data. Its user-friendly interface and ability to query, visualize, and share data make it an invaluable resource for anyone looking to gain insights into the world of blockchain, starting from Aptos and Sui. 
+
+* Get started to explore the analytics dashboard at https://blockeden.xyz/analytics
+* Check documentations for [Aptos Analytics and GraphQL](/docs/aptos/analytics-and-graphql/)
+
+## Why BlockEden.yxz?
+
+We listen to Aptos and Sui developers every day and are fully committed to serving the best infra for them.
+
+If you’re a Web3 developer or app owner in need of an RPC connection for the Sui devnet, look no further than BlockEden.xyz! We are proud to be one of the first infrastructure providers offering this service for this highly anticipated new blockchains. In addition to our RPC connection, we will also offer a variety of other essential services and features for any Web3 project. Learn more about us today and see how we can help you succeed in the blockchain space!
+
+- Twitter: https://twitter.com/BlockEdenHQ
+- Discord: https://discord.gg/4Yfvs2HWey
+- Source Link: https://blockeden.xyz/blog/2022/12/30/introducing-blockEden-xyz-analytics/
