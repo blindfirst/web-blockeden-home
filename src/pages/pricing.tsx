@@ -79,7 +79,7 @@ export default function Pricing() {
                       </li>
                       <li className="py-1">
                         <span>
-                          Pay with crypto
+                          No need to pay
                         </span>
                       </li>
                     </ul>
@@ -114,9 +114,7 @@ export default function Pricing() {
                         </span>
                       </li>
                       <li className="py-1">
-                        <span>
-                          Pay with crypto
-                        </span>
+                        <span><Link href={"https://blockeden.xyz/dash/create-payment-subscription?planId=price_5UuXzatAZYDBJC2YZTKD&isCrypto=true"}>Pay with crypto</Link></span>
                       </li>
                     </ul>
                     <a href="https://blockeden.xyz/dash/create-payment-subscription"
@@ -152,9 +150,7 @@ export default function Pricing() {
                         </span>
                       </li>
                       <li className="py-1">
-                        <span>
-                          Pay with crypto
-                        </span>
+                        <span><Link href={"https://blockeden.xyz/dash/create-payment-subscription?planId=price_Ve6AjMqzP6MdMUhdFk2u&isCrypto=true"}>Pay with crypto</Link></span>
                       </li>
                     </ul>
                     <a
