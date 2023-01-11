@@ -5,7 +5,9 @@ import 'aos/dist/aos.css';
 
 export const useAos = () => {
   useEffect(() => {
-    AOS.init({});
+    AOS.init({
+      once: true,
+    });
   }, []);
 }
 

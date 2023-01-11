@@ -1,6 +1,7 @@
 import React from "react"
 import {beConfig} from "@site/src/config";
 import Link from "@docusaurus/Link";
+import styles from "./features.module.css";
 
 export const Features = () => {
   return (
@@ -21,7 +22,7 @@ export const Features = () => {
             data-aos-delay={100}
           >
             <img src="/img/aptos-pure-logo.svg" alt="Image" className="mb-4" />
-            <h4>Aptos</h4>
+            <h4 className={styles.h4}>Aptos</h4>
             <p className="px-xl-4">
               Connect your dApp to Aptos blockchain RPC, GraphQL. Get coin and NFT data analytics in 3 minutes. Scale with your users.
             </p>
@@ -35,9 +36,9 @@ export const Features = () => {
             data-aos-delay={200}
           >
             <img src="/img/sui-logo.svg" alt="Image" className="mb-4" />
-            <h4>Sui</h4>
+            <h4 className={styles.h4}>Sui</h4>
             <p className="px-xl-4">
-              Reliable DevNet JSON RPC and websocket. Scale your DApp and get prepared for the mainnet launch.
+              Connect your dApp to Reliable DevNet JSON RPC and websocket. Scale your DApp and get prepared for the mainnet launch.
             </p>
             <Link href="/sui/" className="hover-arrow">
               Learn more
@@ -49,9 +50,9 @@ export const Features = () => {
             data-aos-delay={300}
           >
             <img src="/img/discord.svg" alt="Image" className="mb-4" />
-            <h4>Hands-on support</h4>
+            <h4 className={styles.h4}>Hands-on support</h4>
             <p className="px-xl-4">
-              Partner engineers at your service now. Singapore Time (SGT) Mon - Fri 7am - 3pm.
+              Partner engineers at your service now. Singapore Time (SGT) Mon - Fri 7am - 3pm. Stay connected with the community.
             </p>
             <a href={beConfig.supportUrl} className="hover-arrow">
               Join Discord
@@ -63,9 +64,9 @@ export const Features = () => {
             data-aos-delay={400}
           >
             <img src="/assets/img/saas-sketch-5.svg" alt="Image" className="mb-4" />
-            <h4>Product Roadmap</h4>
+            <h4 className={styles.h4}>Product Roadmap</h4>
             <p className="px-xl-4">
-              Quality product delivered to you by a group of engineers from Google, Meta, Uber, and IoTeX.
+              Product delivered to you from a team who built blockchains and infrastructures at Google, Meta, and IoTeX.
             </p>
             <Link className="hover-arrow" href="/about-us/">
               About us
