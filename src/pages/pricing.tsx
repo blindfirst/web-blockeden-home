@@ -49,9 +49,10 @@ export default function Pricing() {
             </div>
             <div style={{height: "60px"}}/>
           </section>
+
           <section>
             <div className="container">
-              <div className="row mb-4">
+              <div className="row">
                 <div className="col-md-3" data-aos="fade-up" data-aos-delay={100}>
                   <div className="card card-body align-items-center ">
                     <div className="pt-md-2">
@@ -106,7 +107,7 @@ export default function Pricing() {
                         <span>10 requests / second</span>
                       </li>
                       <li className="py-1">
-                        <span>5 project / network</span>
+                        <span>5 projects / network</span>
                       </li>
                       <li className="py-1">
                         <span>
@@ -142,7 +143,7 @@ export default function Pricing() {
                         <span>50 requests / second</span>
                       </li>
                       <li className="py-1">
-                        <span>25 project / network</span>
+                        <span>25 projects / network</span>
                       </li>
                       <li className="py-1">
                         <span>
@@ -163,21 +164,22 @@ export default function Pricing() {
                 <div className="col-md-3" data-aos="fade-up" data-aos-delay={400}>
                   <div className="card card-body align-items-center ">
                     <div className="pt-md-2">
-                      <h4>custom</h4>
+                      <h4>Enterprise 500</h4>
                     </div>
                     <div className="d-flex align-items-start pb-md-2">
-                      <span className="display-4 mb-0">Custom</span>
+                      <span className="h3">$</span>
+                      <span className="display-4 mb-0">1999</span>
                     </div>
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
-                        <span>Customized</span>
+                        <span>50,000,000 <Link href={"/docs/compute-unit/"}>CUs</Link> / day</span>
                       </li>
                       <li className="py-1">
-                        <span><Link href={"/docs/compute-unit/"}>CUs</Link> / day</span>
+                        <span>500 requests / second</span>
                       </li>
                       <li className="py-1">
-                        <span>requests / second</span>
+                        <span>300 projects / network</span>
                       </li>
                       <li className="py-1">
                         <span>
@@ -185,7 +187,7 @@ export default function Pricing() {
                         </span>
                       </li>
                       <li className="py-1">
-                        <span>Pay with crypto</span>
+                        <span><Link href={"https://blockeden.xyz/dash/create-payment-subscription?planId=price_Ve6AjMqzP6MdMUhdFk2u&isCrypto=true"}>Pay with crypto</Link></span>
                       </li>
                     </ul>
                     <a href={beConfig.supportUrl} className="btn btn-outline-primary">
@@ -193,6 +195,31 @@ export default function Pricing() {
                     </a>
                   </div>
                 </div>
+              </div>
+              <div className="row mb-4">
+                <div className="col" data-aos="fade-up" data-aos-delay={500}>
+                  <div className="card card-body align-items-center flex-row justify-content-between">
+                    <div className="pt-md-2">
+                      <h4>Pro Flex</h4>
+                    </div>
+                    <div className="d-flex align-items-start pb-md-2">
+                      <span className="display-4 mb-0">Pay as you go</span>
+                    </div>
+                    <ul className="text-center list-unstyled my-2 my-md-4">
+                      <li className="py-1">
+                        <span>10 requests / second</span>
+                      </li>
+                      <li className="py-1">
+                        <span>5 projects / network</span>
+                      </li>
+                    </ul>
+                    <a href={beConfig.supportUrl} className="btn btn-outline-primary">
+                      Contact support
+                    </a>
+                  </div>
+                </div>
+
+
               </div>
               <div className="row">
                 <div className="col text-center">

@@ -211,19 +211,19 @@ export const CustomerReferences: React.FC = () => {
               </div>
               <div className="my-md-2 flex-grow-1">
                 <h4>
-                  “Bro, it's literally life-saving for our wallet development!”
+                  “BlockEden provides high availability RPCs for Aptos and also the much needed indexing service for getting the data required for our app. They are working on supporting SUI at launch and we will be working with them on that front also.”
                 </h4>
               </div>
               <div className="avatar-author align-items-center">
                 <img
-                  src="/assets/img/avatars/male-4.jpg"
+                  src="https://tp-misc.b-cdn.net/blockeden/scalp-empire-dark-bg.png"
                   alt="Avatar"
                   className="avatar1"
                 />
                 <div className="ml-2">
-                  <strong>Marco Origez</strong>
+                  <strong>Scalp Empire</strong>
                   <br/>
-                  <span>Developer</span>
+                  <span>Realtime NFT Tracking</span>
                 </div>
               </div>
             </div>
