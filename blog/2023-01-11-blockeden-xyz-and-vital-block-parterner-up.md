@@ -38,7 +38,7 @@ In addition to chain RPC, we also provide Indexer GraphQL API and data analytics
 
 * Twitter: https://twitter.com/BlockEdenHQ
 * Discord: https://discord.gg/4Yfvs2HWey
-* Source Link: https://blockeden.xyz/blog/2022/12/13/blockeden-xyz-partners-with-secure3-to-bolster-blockchain-security
+* Source Link: https://blockeden.xyz/blog/2023/01/11/blockeden-xyz-and-vital-block-parterner-up/
 
 The partnership between BlockEden.xyz and Vital Block will help make the DeFi and Web3 spaces safer for everyone involved – by providing comprehensive security assessments as well as efficient DApp building tools, these two companies are working together to ensure that blockchain technology runs securely while also enabling developers to innovate quickly. If you're interested in getting involved with either company's services then be sure to check out their websites today!
 
