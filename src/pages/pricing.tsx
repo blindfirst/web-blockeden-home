@@ -187,7 +187,7 @@ export default function Pricing() {
                         </span>
                       </li>
                       <li className="py-1">
-                        <span><Link href={"https://blockeden.xyz/dash/create-payment-subscription?planId=price_Ve6AjMqzP6MdMUhdFk2u&isCrypto=true"}>Pay with crypto</Link></span>
+                        <span><Link href={"https://blockeden.xyz/dash/create-payment-subscription?planId=price_ZcZzHmyPuFvada3TMc7H&isCrypto=true"}>Pay with crypto</Link></span>
                       </li>
                     </ul>
                     <a href={beConfig.supportUrl} className="btn btn-outline-primary">
