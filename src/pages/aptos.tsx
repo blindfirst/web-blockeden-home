@@ -26,7 +26,7 @@ export default function Aptos(): JSX.Element {
             <div className="container">
               <div className="row justify-content-center text-center mb-6">
                 <div className="col-xl-8 col-lg-9 col-md-10">
-                  <h1 className="display-5">Connect to Aptos and inspect its Coin, NFT, contract call in minutes</h1>
+                  <h1 className="display-5">Connect to Aptos and inspect its coin, NFT, contract call in minutes</h1>
                   <p className="lead">BlockEden.xyz provides Standard Aptos RPC, indexer GraphQL API and data analytics web portal</p>
                   <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5">
                     <div className="d-flex flex-column mx-1 text-center">

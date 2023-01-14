@@ -11,12 +11,11 @@ need to use compute unit to report the API invocation price in a comparable way.
 
 ## Service Pricing
 
-| Service       | Network | Compute Unit(s) |
-|---------------|---------|-----------------|
-| Node API      | Aptos   | 1               |
-| Node API      | Sui     | 1               |
-| GraphQL API   | Aptos   | 5               |
-| Analytics SQL | Aptos   | 100             |
+| Service       | Network              | Compute Unit(s) |
+|---------------|----------------------|-----------------|
+| Node API      | Aptos, Sui, Ethereum | 1               |
+| GraphQL API   | Aptos                | 5               |
+| Analytics SQL | Aptos                | 100             |
 
 **Note:** the machine cost of providing these services could be changed over the
 time. We resere the right of adjusting the compute units of eacch service and
