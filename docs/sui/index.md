@@ -29,7 +29,7 @@ Using `CURL` to connect Sui
 ```
 # sui json-rpc discover request
 
-curl -X POST https://sui-devnet.blockeden.xyz/<access_key> \
+curl -X POST https://sui-devnet.blockeden.xyz/<J2BncDhSRPgVzes8eizc> \
 -H 'Content-Type: application/json' \
 -d '{ "jsonrpc":"2.0", "method":"rpc.discover","id":1}'
 ```
@@ -40,7 +40,7 @@ Using TypeScript SDK to connect Sui
 const { JsonRpcProvider } = require("@mysten/sui.js");
 
 (async () => {
-  const providerUrl = "https://sui-devnet.blockeden.xyz/<access_key>"
+  const providerUrl = "https://sui-devnet.blockeden.xyz/<J2BncDhSRPgVzes8eizc>"
   const provider = new JsonRpcProvider(providerUrl);
   const totalTxNumber = await provider.getTotalTransactionNumber(
   );
